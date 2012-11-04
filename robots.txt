@@ -1,0 +1,7 @@
+# http://axhixh.homelinux.com 
+User-agent: * 
+Disallow: /
+
+User-agent: Browsershots
+Disallow:
+
