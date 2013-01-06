@@ -1,0 +1,90 @@
+/* 
+ album.css
+ Style sheet for the album
+
+ Author: Ashish Shrestha <axhixh@yahoo.com>
+ Date: January 2006
+ Copyright 2006 - 2013.
+ License: BSD
+ */
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: small;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* for it to work in firefox, ie and opera pics size + padding < width
+and same for height (< and not <=)*/
+div.thumbnail {
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+  width: 118px;
+  height: 118px;
+  padding: 0px;
+  border-width: 0px;
+}
+
+/* width must be specified for it to work correctly in IE */
+div.thumbnails {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+h2 {
+   text-align: center;
+}
+h3 {
+   text-align: center;
+   font-size: small;
+}
+div.copyright {
+  margin-top: 20px;
+  font-size: small;
+  text-align: left; 
+}
+
+div.poweredby {
+  font-size: small;
+  text-align: right;
+}
+
+div.container {
+  width: 620;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.crumbs {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+div.social {
+    text-align: center;
+}
+div.links {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #777;
+  padding: 5px;
+  background: #fff;
+  margin: 5px;
+}
+
+a:link { color: #ff4500; text-decoration:none;}
+a:visited { color: #ffa500; text-decoration: none;}
+a:hover { color: #ff4500; text-decoration: underline;}
+a:active {color: #ff4500; text-decoration: none;}
