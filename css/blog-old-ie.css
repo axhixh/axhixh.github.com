@@ -6,7 +6,7 @@
 
 a {
   text-decoration: none;
-  color: rgb(61, 146, 201);
+  color: #b24700;
 }
 
 a:hover,
@@ -72,7 +72,7 @@ h3 {
   color: #fff;
   margin-top: 1em;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 85%;
 }
 
@@ -83,7 +83,7 @@ h3 {
 }
 
 .content-subhead {
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #aaa;
   border-bottom: 1px solid #eee;
   padding: 0.4em 0;
