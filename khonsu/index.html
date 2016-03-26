@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khonsu Demo - Where was I in 2014</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <style>
+        #map { width: 900px; height: 700px; }
+        body { font: 16px/1.4 "Helvetica Neue", Arial, sans-serif; }
+        a { color: #0077ff; }
+    </style>
+</head>
+<body>
+
+<h2>Where was I in 2014?</h2>
+<p>
+Demo of <a href="https://github.com/axhixh/khonsu/">Khonsu</a>. Remember to zoom in and out. Zoom out to see the whole world.
+</p>
+
+<div id="map"></div>
+
+<script src="leaflet-heat.js"></script>
+<script src="places.js"></script>
+
+<script>
+// Start in London, UK
+var map = L.map('map').setView([51.55, -0.2], 11);
+
+var tiles = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+var heat = L.heatLayer(locations, {maxZoom: 15, minOpacity: 0.2}).addTo(map);
+</script>
+</body>
+</html>
