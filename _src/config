@@ -1,6 +1,6 @@
 TEMPLATES = site.tmpl
 SOURCE = src
-OUTPUT = docs
+OUTPUT = ..
 TITLE = axhixh
 URL = https://www.axhixh.com.np/
 AUTHOR = Ashish Shrestha
