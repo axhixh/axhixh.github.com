@@ -1,5 +1,0 @@
-1. jquery minimized
-2. script to get album
-3. script to generate album
-4. script to update home page
-5. script to update year page
