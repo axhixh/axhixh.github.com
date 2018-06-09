@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
+  <id>{{ .Site.Other.Url }}</id>
+  <title>{{ .Site.Other.Title }}</title>
+  {{ with .Site.Pages.Children "pages/" }}
+  <updated>{{ .First.Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+  {{ end }}
+  <author><name>{{ .Site.Other.Author }}</name></author>
+  <link href="{{ .Site.Other.Url }}{{ .Url }}"></link>
+
+{{ with .Site.Pages.Children "pages/" }}
+{{ range .Slice 0 10 }}
+<entry>
+  <id>{{ .Url }}</id>
+  <author><name>{{ or .Other.Author .Site.Other.Author }}</name></author>
+  <title type="html">{{ html .Title }}</title>
+  <published>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</published>
+  <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+  {{ range .Tags }}
+  <category term="{{ . }}"></category>
+  {{ end }}
+  <link href="{{ .Site.Other.Url }}{{ .Url }}" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    {{/* .Process runs here in case only feed changed */}}
+    {{ cut "<div class='content'>" "</div> <!-- content -->" .Process.Content}}
+  ]]></content>
+</entry>
+{{ end }}
+{{ end }}
+</feed>

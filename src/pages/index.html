@@ -1,0 +1,9 @@
+title: Core Dump
+----
+<h1 class="title has-text-danger">{{.Title}}</h1>
+<p class="subtitle">changelog</p>
+<ul class="post-list">
+{{ range .Site.Pages.Children "pages/" }}
+  <li>{{ template "date" .Date }} - <a href="{{ $.Rel .Url }}">{{ .Title }}</a>
+{{ end }}
+</ul>

@@ -1,0 +1,8 @@
+title: tags  
+----
+<h1 class="title has-text-danger">{{.Title}}</h1>
+<div class="tags">
+{{ range .Site.Pages.Children "tags/" }}
+  <a class="tag is-dark" href="{{ $.Rel .Url }}">{{ .Title }}</a>
+{{ end }}
+</div>

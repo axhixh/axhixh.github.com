@@ -1,0 +1,42 @@
+TEMPLATES = site.tmpl
+SOURCE = src
+OUTPUT = docs
+TITLE = axhixh
+URL = https://www.axhixh.com.np/
+AUTHOR = Ashish Shrestha
+
+*.md:
+	config
+	ext .html
+	directorify
+	tags tags/*.tag
+	markdown
+	template post 
+	template page
+
+*.tag: pages/*.md
+	ext .html
+	directorify
+	template tag
+	markdown
+	template page
+
+index.html: pages/*.md
+	config
+	inner-template
+	template page
+
+tags/index.html: tags/*.tag
+	config
+	inner-template
+	template page
+
+pages/index.html: pages/*.md
+	config
+	inner-template
+	template page
+
+axhixh.atom: pages/*.md
+	inner-template
+
+

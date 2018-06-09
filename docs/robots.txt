@@ -1,0 +1,19 @@
+# http://www.axhixh.com.np
+User-agent: Googlebot
+Disallow:
+
+User-agent: MSNBot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: ia_archiver
+Disallow:
+
+User-agent: *
+Disallow: /
+

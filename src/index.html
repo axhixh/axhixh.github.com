@@ -1,0 +1,9 @@
+title: axhixh  
+----
+<h1 class="title has-text-danger">{{.Title}}</h1>
+<p class="subtitle">ashish's notebook</p>
+<ul class="post-list">
+{{ range .Site.Pages.Children "pages/" }}
+  <li>{{ template "date" .Date }} - <a href="{{ $.Rel .Url }}">{{ .Title }}</a>
+{{ end }}
+</ul>

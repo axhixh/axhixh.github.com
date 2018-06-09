@@ -1,0 +1,92 @@
+{{ define "header" }}<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>axhixh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- open graph -->
+  <meta property="og:title" content="{{.Title}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{.Url}}" />
+  <!-- twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@axhixh">
+  <meta name="twitter:creator" content="@axhixh">
+  <meta name="twitter:title" content="{{.Title}}">
+  <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1811191-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+<section class="section">
+<div class="container">
+{{ end }}
+
+{{ define "footer" }}
+</div>
+</section>
+<footer class="footer has-background-white">
+  <div class="container">
+    <div class="has-text-centered">
+      <p>&copy; 2018 Ashish Shrestha</p> 
+      <p>
+        <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
+        <a href="/tags"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
+        <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
+        <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
+        <a href="https://twitter.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-twitter"></i></span>Twitter</a> 
+        <a href="https://instagram.com/hxihxa/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>{{ end }}
+
+{{define "date"}}
+<time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ .Format "2006, Jan 02" }}</time>
+{{end}}
+
+{{ define "page" }}
+{{ template "header" . }}
+{{ .Content }}
+{{ template "footer" . }}
+{{ end }}
+
+{{ define "post" }}
+<h1 class="title has-text-danger">{{ .Title }}</h1>
+<div class="field is-grouped is-grouped-multiline">
+<div class="control">
+<div class="tags has-addons"> <span class="tag">Date</span><span class="tag is-black">{{template "date" .Date}}</span></div>
+</div>
+{{ if .Other.Created }}
+<div class="control">
+<div class="tags has-addons"><span class="tag">Created</span><span class="tag is-black">{{ .Other.Created }}</span></div>
+</div>
+{{end}}
+</div>
+<div class="tags">{{ range .Tags}}
+<a href="/tags/{{.}}/"><span class="tag is-black">{{.}}</span></a>&nbsp;
+{{end}}</div>
+<div class='content'>
+{{ .Content }}
+</div> <!-- content -->
+{{ end }}
+
+{{define "tag"}}
+<div class="tag is-large is-danger"> {{.Title}}</div>
+{{ range .Site.Pages.WithTag .Title }}
+- [{{ .Title }}]({{ $.Rel .Url }})
+{{ end }}
+{{ end }}
