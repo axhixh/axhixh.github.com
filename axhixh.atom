@@ -3,12 +3,135 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2014-02-17T00:00:00Z</updated>
+  <updated>2019-06-14T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/sql-join/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">SQL Join</title>
+  <published>2019-06-14T00:00:00Z</published>
+  <updated>2019-06-14T00:00:00Z</updated>
+  
+  <category term="sql"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/sql-join/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>A memorable explanation of SQL joins that I read somewhere on Internet. Hacker News or Reddit comments?</p>
+
+<p>I was taught the Puritan church model for joins. It’s a little corny and maybe hasn’t aged particularly well, but gets the job done. It goes something like this:
+Imagine a Puritan church where the men sit on one side, the women on the other.</p>
+
+<p>An <code>INNER JOIN</code> is when the married couples hold hands and leave at the end, leaving all the singles behind.</p>
+
+<p>A <code>LEFT JOIN</code> is when the women all leave - the married ones take their husbands and the single women go alone.</p>
+
+<p>A <code>RIGHT JOIN</code> is the same thing, except the men all leave and take the wives and leave the single women behind. It’s rude to do this, in a Puritan church and in your SQL.</p>
+
+<p>A <code>FULL OUTER JOIN</code> is a fire drill and everyone leaves, married couples together.</p>
+
+<p>And a <code>CROSS JOIN</code> is a swingers party and should never happen in a Puritan church nor your SQL.</p>
+
+
+  ]]></content>
+</entry>
+
+<entry>
+  <id>pages/git-clients/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Git Clients</title>
+  <published>2019-06-14T00:00:00Z</published>
+  <updated>2019-06-14T00:00:00Z</updated>
+  
+  <category term="git"></category>
+  
+  <category term="source-control"></category>
+  
+  <category term="applications"></category>
+  
+  <category term="tools"></category>
+  
+  <category term="github"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/git-clients/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Clients I have used for interacting with <code>git</code> when I need something more than the command line interface or the built-in UI <code>git gui</code>.</p>
+
+<h1><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
+
+<p>First git GUI I used. I still use it because I am familiar with it. You need to get an Atlassian account to use it.</p>
+
+<h1><a href="https://git-fork.com/">Fork</a></h1>
+
+<p>Nice git GUI. Find it faster than SourceTree. Don&rsquo;t need to create any sort of accounts. Having built-in image diff is nice.</p>
+
+<h1><a href="https://jonas.github.io/tig/">Tig</a></h1>
+
+<p>Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias <code>alias incoming='tig ..origin/master'</code> to explore incoming git changes.</p>
+
+
+  ]]></content>
+</entry>
+
+<entry>
+  <id>pages/20-cds-original-ipod/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">20 CDs Included with Original iPod</title>
+  <published>2019-06-14T00:00:00Z</published>
+  <updated>2019-06-14T00:00:00Z</updated>
+  
+  <category term="music"></category>
+  
+  <category term="apple"></category>
+  
+  <category term="ipod"></category>
+  
+  <category term="spotify"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/20-cds-original-ipod/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>A great way to sample different music genre. The list of 20 CDs included with original iPod. Listen with <a href="https://open.spotify.com/playlist/7D4SVuRHKnJ96Z7NtLWV6L?si=f2xsEcBkRs6heVqI-v5-AA">Spotify playlist</a></p>
+
+<p><a href="http://nobi.com/entry-1239.html">Article</a> about the 20 CDs and introduction of original iPod.</p>
+
+<h1>CD List</h1>
+
+<ol>
+<li>Classic Yo-Yo by Yo-Yo Ma</li>
+<li>Mozart:Symphonies Nos. 35-41 by Karl Böhm</li>
+<li>Goldberg Variations by Glenn Gould</li>
+<li>Bridge Over Troubled Water by Simon &amp; Garfunkel</li>
+<li>Bookends by Simon &amp; Garfunkel</li>
+<li>The Bootleg Series, Vol. 4: Live 1966 - The &ldquo;Royal Albert Hall&rdquo; Concert by Bob Dylan</li>
+<li>A Hard Day&rsquo;s Night by The Beatles</li>
+<li>Abbey Road by The Beatles</li>
+<li>Live In Cook County Jail by B.B. King</li>
+<li>The Cole Porter Songbook, Vol 1 by Ella Fitzgerald</li>
+<li>Kind of Blue by Miles Davis</li>
+<li>Time Out by The Dave Brubeck Quartet</li>
+<li>Jagged Little Pill by Alanis Morissette</li>
+<li>Surfacing by Sarah McLachlan</li>
+<li>Never mind by Nirvana</li>
+<li>Legend by Bob Marley &amp; The Wailers</li>
+<li>Breathe by Faith Hill</li>
+<li>Crash by Dave Matthews Bandh</li>
+<li>Play &amp; Play: B Sides by Moby</li>
+<li>O Brother, Where Art Thou? (Music from the motion picture)</li>
+</ol>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/origin/</id>
