@@ -75,7 +75,8 @@
 
 {{define "tag"}}
 <div class="tag is-large is-danger"> {{.Title}}</div>
+<hr>
 {{ range .Site.Pages.WithTag .Title }}
-- [{{ .Title }}]({{ $.Rel .Url }})
+- {{ template "date" .Date }} [{{ .Title }}]({{ $.Rel .Url }})
 {{ end }}
 {{ end }}
