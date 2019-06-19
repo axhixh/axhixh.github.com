@@ -3,12 +3,86 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2019-06-14T00:00:00Z</updated>
+  <updated>2019-06-18T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/ml-like-languages/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">ML like Languages</title>
+  <published>2019-06-18T00:00:00Z</published>
+  <updated>2019-06-18T00:00:00Z</updated>
+  
+  <category term="ml"></category>
+  
+  <category term="beam"></category>
+  
+  <category term="jvm"></category>
+  
+  <category term="dotnet"></category>
+  
+  <category term="fsharp"></category>
+  
+  <category term="gleam"></category>
+  
+  <category term="alpaca"></category>
+  
+  <category term="erlang"></category>
+  
+  <category term="ocaml"></category>
+  
+  <category term="lux"></category>
+  
+  <category term="eta"></category>
+  
+  <category term="scala"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/ml-like-languages/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Functional languages with static typing.</p>
+
+<h1>For Erlang VM</h1>
+
+<ul>
+<li><a href="https://github.com/alpaca-lang/alpaca">Alpaca</a></li>
+<li><a href="https://gleam.run/">Gleam</a></li>
+<li><a href="https://wende.github.io/elchemy/">Elchemy</a></li>
+</ul>
+
+<h1>For Java VM</h1>
+
+<ul>
+<li><a href="https://www.scala-lang.org/">Scala</a></li>
+<li><a href="https://kotlinlang.org/">Kotlin</a></li>
+<li><a href="https://eta-lang.org">Eta</a></li>
+<li><a href="https://github.com/Frege/frege">Frege</a></li>
+<li><a href="https://github.com/LuxLang/lux">Lux</a></li>
+<li><a href="https://flix.dev/">Flix</a></li>
+</ul>
+
+<h1>For .net Runtime</h1>
+
+<ul>
+<li><a href="https://fsharp.org">F#</a></li>
+</ul>
+
+<h1>Transpiles to Javascript</h1>
+
+<ul>
+<li><a href="https://bucklescript.github.io/">BuckleScript</a></li>
+<li><a href="https://fable.io/">Fable</a></li>
+<li><a href="http://www.purescript.org/">PureScript</a></li>
+</ul>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/sql-join/</id>
