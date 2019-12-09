@@ -3,7 +3,7 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2019-06-18T00:00:00Z</updated>
+  <updated>2019-12-08T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
@@ -14,8 +14,8 @@
   <id>pages/ml-like-languages/</id>
   <author><name>Ashish Shrestha</name></author>
   <title type="html">ML like Languages</title>
-  <published>2019-06-18T00:00:00Z</published>
-  <updated>2019-06-18T00:00:00Z</updated>
+  <published>2019-12-08T00:00:00Z</published>
+  <updated>2019-12-08T00:00:00Z</updated>
   
   <category term="ml"></category>
   
@@ -40,6 +40,10 @@
   <category term="eta"></category>
   
   <category term="scala"></category>
+  
+  <category term="lua"></category>
+  
+  <category term="python"></category>
   
   <link href="https://www.axhixh.com.np/pages/ml-like-languages/" rel="alternate"></link>
   <content type="html"><![CDATA[
@@ -78,6 +82,13 @@
 <li><a href="https://bucklescript.github.io/">BuckleScript</a></li>
 <li><a href="https://fable.io/">Fable</a></li>
 <li><a href="http://www.purescript.org/">PureScript</a></li>
+</ul>
+
+<h1>Rest</h1>
+
+<ul>
+<li><a href="https://amulet.works/">Amulet</a> transpiles to Lua</li>
+<li><a href="http://coconut-lang.org/">Coconut</a> transpiles to Python</li>
 </ul>
 
 
