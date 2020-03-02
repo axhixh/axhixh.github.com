@@ -1,6 +1,7 @@
 title: ML like Languages
-date: 2019-06-18
-tags: ml, beam, jvm, dotnet, fsharp, gleam, alpaca, erlang, ocaml, lux, eta, scala
+created: 2019, Jun 18
+date: 2019-12-08
+tags: ml, beam, jvm, dotnet, fsharp, gleam, alpaca, erlang, ocaml, lux, eta, scala, lua, python
 ----
 
 Functional languages with static typing.
@@ -29,3 +30,8 @@ Functional languages with static typing.
  - [BuckleScript](https://bucklescript.github.io/)
  - [Fable](https://fable.io/)
  - [PureScript](http://www.purescript.org/)
+
+# Rest
+
+ - [Amulet](https://amulet.works/) transpiles to Lua
+ - [Coconut](http://coconut-lang.org/) transpiles to Python
