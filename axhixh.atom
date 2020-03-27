@@ -3,12 +3,69 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2020-03-01T00:00:00Z</updated>
+  <updated>2020-03-26T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/digitizing-documents/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Digitizing Paper Documents</title>
+  <published>2020-03-26T00:00:00Z</published>
+  <updated>2020-03-26T00:00:00Z</updated>
+  
+  <category term="notebook"></category>
+  
+  <category term="office-lens"></category>
+  
+  <category term="scanning"></category>
+  
+  <category term="notes"></category>
+  
+  <category term="archive"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/digitizing-documents/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>I love writing with fountain pen and maintain all my notes, to dos,
+logs and other lists in paper notesbooks. When I am finish a note-
+book, I like to scan it and convert it into a PDF for future. It
+is also easier to archive it.</p>
+
+<p>OCR isn&rsquo;t a requirement for me at the moment.</p>
+
+<p>Listing programs I have found useful for scanning and making PDFs.</p>
+
+<h2><a href="https://github.com/the-paperless-project/paperless">paperless</a></h2>
+
+<p>Full document management system, that scans, indexes and archives
+all paper documents. Supports OCR and searching of documents.</p>
+
+<h2><a href="https://github.com/Flameeyes/unpaper">unpaper</a></h2>
+
+<p>Unpaper is a post processing program to clean scanned images. It
+is used to straighten, despeckle the scanned documents. This
+program is used by paperless.</p>
+
+<h2><a href="https://mzucker.github.io/2016/09/20/noteshrink.html">noteshrink</a></h2>
+
+<p>Noteshrink is meant to process hand written notes. This is the
+program I used to convert my scanned notebook to PDFs.</p>
+
+<h2><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2015/04/02/office-lens-comes-to-iphone-and-android/">Office Lens</a></h2>
+
+<p>Office Lens is a mobile phone app from Microsoft. This is a
+great solution when I only have a few pages to scan. However,
+it is too tedious to scan a whole notebook with it. I prefer
+to use desktop scanner.</p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/programming-fonts/</id>
