@@ -1,6 +1,6 @@
 title: Digitizing Paper Documents
 date: 2020-03-26
-tags: notebook, office-lens, scanning, notes, archive
+tags: notebook, office-lens, scanning, notes, archive, tools
 ----
 
 I love writing with fountain pen and maintain all my notes, to dos,

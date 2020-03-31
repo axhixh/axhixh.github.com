@@ -3,12 +3,71 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2020-03-27T00:00:00Z</updated>
+  <updated>2020-03-30T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/smart-crop/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Smart Crop</title>
+  <published>2020-03-30T00:00:00Z</published>
+  <updated>2020-03-30T00:00:00Z</updated>
+  
+  <category term="image-processing"></category>
+  
+  <category term="photo"></category>
+  
+  <category term="opencv"></category>
+  
+  <category term="face-detection"></category>
+  
+  <category term="tools"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/smart-crop/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Open source software for smart crop. Smart crop enables batch
+cropping of images that are useful and not just from the middle
+of the image.</p>
+
+<h1><a href="https://github.com/jwagner/smartcrop.js">SmartCrop.js</a></h1>
+
+<p>A simple implementation of smart crop in Javascript. The algorigthm
+used is simple and has inspired many implementations in differnt
+languages.</p>
+
+<p>From the SmartCrop.js README:</p>
+
+<pre><code>Smartcrop.js works using fairly dumb image processing. In short:
+
+1. Find edges using laplace
+2. Find regions with a color like skin
+3. Find regions high in saturation
+4. Boost regions as specified by options (for example detected faces)
+5. Generate a set of candidate crops using a sliding window
+6. Rank them using an importance function to focus the detail in the center and avoid it in the edges.
+7. Output the candidate crop with the highest rank
+</code></pre>
+
+<h1><a href="https://github.com/keplerlab/katna">Katna</a></h1>
+
+<p>Supports both video and images. The image smart crop is based on smartcrop.js.
+It is written in Python.</p>
+
+<h1><a href="http://thumbor.org/">Thumbor</a></h1>
+
+<p>Another smart crop program written in Python. It uses OpenCV for face detection.
+Other detectors it uses for identifying features for smart crop is documented at
+<a href="https://thumbor.readthedocs.io/en/latest/detection_algorithms.html">https://thumbor.readthedocs.io/en/latest/detection_algorithms.html</a></p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/text-to-diagrams/</id>
@@ -21,7 +80,7 @@
   
   <category term="text"></category>
   
-  <category term="utilities"></category>
+  <category term="tools"></category>
   
   <link href="https://www.axhixh.com.np/pages/text-to-diagrams/" rel="alternate"></link>
   <content type="html"><![CDATA[
@@ -78,6 +137,8 @@ Python code description. Supports major cloud providers and Kubernetes.</p>
   <category term="notes"></category>
   
   <category term="archive"></category>
+  
+  <category term="tools"></category>
   
   <link href="https://www.axhixh.com.np/pages/digitizing-documents/" rel="alternate"></link>
   <content type="html"><![CDATA[

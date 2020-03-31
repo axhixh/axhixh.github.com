@@ -1,6 +1,6 @@
 title: Text to Diagrams
 date: 2020-03-27
-tags: diagram, text, utilities
+tags: diagram, text, tools
 ----
 
 I prefer to use text to diagram tools because it is easier to

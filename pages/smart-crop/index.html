@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>axhixh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- open graph -->
+  <meta property="og:title" content="Smart Crop" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="pages/smart-crop/" />
+  <!-- twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@axhixh">
+  <meta name="twitter:creator" content="@axhixh">
+  <meta name="twitter:title" content="Smart Crop">
+  <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
+</head>
+<body>
+<section class="section">
+<div class="container">
+
+
+<h1 class="title has-text-danger">Smart Crop</h1>
+<div class="field is-grouped is-grouped-multiline">
+<div class="control">
+<div class="tags has-addons"> <span class="tag">Date</span><span class="tag is-black">
+<time datetime="2020-03-30T00:00:00Z">2020, Mar 30</time>
+</span></div>
+</div>
+
+</div>
+<div class="tags">
+<a href="/tags/image-processing/"><span class="tag is-black">image-processing</span></a>&nbsp;
+
+<a href="/tags/photo/"><span class="tag is-black">photo</span></a>&nbsp;
+
+<a href="/tags/opencv/"><span class="tag is-black">opencv</span></a>&nbsp;
+
+<a href="/tags/face-detection/"><span class="tag is-black">face-detection</span></a>&nbsp;
+
+<a href="/tags/tools/"><span class="tag is-black">tools</span></a>&nbsp;
+</div>
+<div class='content'>
+<p>Open source software for smart crop. Smart crop enables batch
+cropping of images that are useful and not just from the middle
+of the image.</p>
+
+<h1><a href="https://github.com/jwagner/smartcrop.js">SmartCrop.js</a></h1>
+
+<p>A simple implementation of smart crop in Javascript. The algorigthm
+used is simple and has inspired many implementations in differnt
+languages.</p>
+
+<p>From the SmartCrop.js README:</p>
+
+<pre><code>Smartcrop.js works using fairly dumb image processing. In short:
+
+1. Find edges using laplace
+2. Find regions with a color like skin
+3. Find regions high in saturation
+4. Boost regions as specified by options (for example detected faces)
+5. Generate a set of candidate crops using a sliding window
+6. Rank them using an importance function to focus the detail in the center and avoid it in the edges.
+7. Output the candidate crop with the highest rank
+</code></pre>
+
+<h1><a href="https://github.com/keplerlab/katna">Katna</a></h1>
+
+<p>Supports both video and images. The image smart crop is based on smartcrop.js.
+It is written in Python.</p>
+
+<h1><a href="http://thumbor.org/">Thumbor</a></h1>
+
+<p>Another smart crop program written in Python. It uses OpenCV for face detection.
+Other detectors it uses for identifying features for smart crop is documented at
+<a href="https://thumbor.readthedocs.io/en/latest/detection_algorithms.html">https://thumbor.readthedocs.io/en/latest/detection_algorithms.html</a></p>
+
+</div> <!-- content -->
+
+
+</div>
+</section>
+<footer class="footer has-background-white">
+  <div class="container">
+    <div class="has-text-centered">
+      <p>&copy; 2014 - 2020 Ashish Shrestha</p> 
+      <p>
+        <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
+        <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
+        <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
+        <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
+        <a href="https://twitter.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-twitter"></i></span>Twitter</a> 
+        <a href="https://instagram.com/hxihxa/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
