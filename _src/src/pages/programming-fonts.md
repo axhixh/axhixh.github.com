@@ -1,5 +1,6 @@
 title: Programming Fonts
 date: 2020-03-01 
+updated: 2020-06-11
 tags: font, ligature, editor, terminal
 ----
 
@@ -22,4 +23,7 @@ Very sharp even at small size https://larsenwork.com/monoid/
 OpenType font from Adobe. Has extra light version. Doesn't have ligatures. https://adobe-fonts.github.io/source-code-pro/
 
 ## Hasklig
-Fork of Source Code Pro with programming ligatures. Ligature substitution wasn't as good as Fira Code. My new default font since ligature substituion changed, and added lots of new ligatures. https://github.com/i-tu/Hasklig
+Fork of Source Code Pro with programming ligatures. Ligature substitution wasn't as good as Fira Code. Ligature substituion changed, and added lots of new ligatures. https://github.com/i-tu/Hasklig
+
+## Victor Mono
+Another clean, thin font. Has cursive italic style for informal looks. Currently my default because of how condensed and clean it is. https://rubjo.github.io/victor-mono/
