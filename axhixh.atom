@@ -3,12 +3,47 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2020-03-30T00:00:00Z</updated>
+  <updated>2020-07-02T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/dithering/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Dithering</title>
+  <published>2020-07-02T00:00:00Z</published>
+  <updated>2020-07-02T00:00:00Z</updated>
+  
+  <category term="image-processing"></category>
+  
+  <category term="algorithms"></category>
+  
+  <category term="go"></category>
+  
+  <category term="website"></category>
+  
+  <category term="solar"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/dithering/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>While reading an article on making energy efficient website on <a href="https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website.html">Low ← Tech Magazine</a>, I noticed that they use dithering to reduce the size of the image. I reduce the number of colors in the palette when I digitize my notebooks. Reducing the number of colours for a photo makes it look bad due to banding; dithering helps. <a href="https://en.wikipedia.org/wiki/Dither">Wikipedia</a> defines dither as <em>an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images.</em></p>
+
+<p>The different dithering algorithms are all about the feedback process that diffuses the quantization error to neighbouring pixels. The different algorithms are documented at <a href="https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html">https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html</a></p>
+
+<p>There are also algorithms that introduce noise in an ordered manner instead of diffusing the error to overcome the banding. These are called ordered dithering. These have more speckling, but the algorithm is fast. In fact, Low ← Tech Magazine chose to use ordered Bayes to dither its images.</p>
+
+<p><a href="https://github.com/esimov/dithergo">DitherGo</a> and <a href="https://app.dithermark.com">DitherMark</a> have implementations of the different dithering algorithms.</p>
+
+<p>To read more about designing websites for solar power or making them energy efficient checkout <a href="https://github.com/lowtechmag/solar/wiki/Solar-Web-Design">Solar Web Design</a></p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/smart-crop/</id>
@@ -225,7 +260,11 @@ to use desktop scanner.</p>
 
 <h2>Hasklig</h2>
 
-<p>Fork of Source Code Pro with programming ligatures. Ligature substitution wasn&rsquo;t as good as Fira Code. My new default font since ligature substituion changed, and added lots of new ligatures. <a href="https://github.com/i-tu/Hasklig">https://github.com/i-tu/Hasklig</a></p>
+<p>Fork of Source Code Pro with programming ligatures. Ligature substitution wasn&rsquo;t as good as Fira Code. Ligature substituion changed, and added lots of new ligatures. <a href="https://github.com/i-tu/Hasklig">https://github.com/i-tu/Hasklig</a></p>
+
+<h2>Victor Mono</h2>
+
+<p>Another clean, thin font. Has cursive italic style for informal looks. Currently my default because of how condensed and clean it is. <a href="https://rubjo.github.io/victor-mono/">https://rubjo.github.io/victor-mono/</a></p>
 
 
   ]]></content>
