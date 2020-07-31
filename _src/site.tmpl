@@ -27,7 +27,7 @@
 </section>
 <footer class="footer has-background-white">
   <div class="container">
-    <div class="has-text-centered">
+    <div class="has-text-left">
       <p>&copy; 2014 - 2020 Ashish Shrestha</p> 
       <p>
         <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
@@ -57,16 +57,16 @@
 <h1 class="title has-text-danger">{{ .Title }}</h1>
 <div class="field is-grouped is-grouped-multiline">
 <div class="control">
-<div class="tags has-addons"> <span class="tag">Date</span><span class="tag is-black">{{template "date" .Date}}</span></div>
+<div class="tags has-addons"> <span class="tag is-black">Date</span><span class="tag">{{template "date" .Date}}</span></div>
 </div>
 {{ if .Other.Created }}
 <div class="control">
-<div class="tags has-addons"><span class="tag">Created</span><span class="tag is-black">{{ .Other.Created }}</span></div>
+<div class="tags has-addons"><span class="tag is-black">Created</span><span class="tag">{{ .Other.Created }}</span></div>
 </div>
 {{end}}
 </div>
 <div class="tags">{{ range .Tags}}
-<a href="/tags/{{.}}/"><span class="tag is-black">{{.}}</span></a>&nbsp;
+<a href="/tags/{{.}}/"><span class="tag is-dark">{{.}}</span></a>&nbsp;
 {{end}}</div>
 <div class='content'>
 {{ .Content }}
@@ -76,7 +76,12 @@
 {{define "tag"}}
 <div class="tag is-large is-danger"> {{.Title}}</div>
 <hr>
+<ul class="post-list">
 {{ range .Site.Pages.WithTag .Title }}
-- {{ template "date" .Date }} [{{ .Title }}]({{ $.Rel .Url }})
+<li class="mb-1">
+    <div><a href="{{ $.Rel .Url }}">{{ .Title }}</a></div>
+    <div class="is-size-7 is-grey-lighter">{{ template "date" .Date }}</div>
+  </li>
 {{ end }}
+</ul>
 {{ end }}

@@ -1,9 +1,12 @@
 title: axhixh  
 ----
 <h1 class="title has-text-danger">{{.Title}}</h1>
-<p class="subtitle">ashish's notebook</p>
+<p class="subtitle is-size-6">ashish's notebook</p>
 <ul class="post-list">
 {{ range .Site.Pages.Children "pages/" }}
-  <li>{{ template "date" .Date }} - <a href="{{ $.Rel .Url }}">{{ .Title }}</a>
+  <li class="mb-1">
+    <div><a href="{{ $.Rel .Url }}">{{ .Title }}</a></div>
+    <div class="is-size-7 is-grey-lighter">{{ template "date" .Date }}</div>
+  </li>
 {{ end }}
 </ul>
