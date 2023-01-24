@@ -1,5 +1,6 @@
 title: Text to Diagrams
-date: 2020-03-27
+created: 2020-03-27
+date: 2023-01-24
 tags: diagram, text, tools
 ----
 
@@ -24,9 +25,16 @@ installing anything.
 Generate cloud architecture diagrams from description written as
 Python code description. Supports major cloud providers and Kubernetes.
 
+## [D2](https://d2lang.com/tour/intro/)
+D2, Declarative Diagramming, is new language for text to diagram.
+It has a multiple layout engines and extensions. The diagrams it
+generates are very clean. The language is readable.
+
 Alternatives to PlantUML that looks interesting are:
 
  1. [Nomnoml](http://www.nomnoml.com/)
  2. [ZenUML](https://zenuml.com)
 
+[Text to Diagram](https://text-to-diagram.com) website has a nice list
+of diagramming tools that you can compare.
 
