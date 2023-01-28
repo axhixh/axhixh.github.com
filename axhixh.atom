@@ -3,12 +3,55 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-01-24T00:00:00Z</updated>
+  <updated>2023-01-28T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/git-clients/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Git Clients</title>
+  <published>2023-01-28T00:00:00Z</published>
+  <updated>2023-01-28T00:00:00Z</updated>
+  
+  <category term="git"></category>
+  
+  <category term="source-control"></category>
+  
+  <category term="applications"></category>
+  
+  <category term="tools"></category>
+  
+  <category term="github"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/git-clients/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Clients I have used for interacting with <code>git</code> when I need something more than the command line interface or the built-in UI <code>git gui</code>.</p>
+
+<h1><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
+
+<p>First git GUI I used. I still use it because I am familiar with it. You need to get an Atlassian account to use it.</p>
+
+<h1><a href="https://git-fork.com/">Fork</a></h1>
+
+<p>Nice git GUI. Find it faster than SourceTree. Don&rsquo;t need to create any sort of accounts. Having built-in image diff is nice.</p>
+
+<h1><a href="https://jonas.github.io/tig/">Tig</a></h1>
+
+<p>Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias <code>alias incoming='tig ..origin/master'</code> to explore incoming git changes.</p>
+
+<h1><a href="https://github.com/jesseduffield/lazygit">Lazy Git</a></h1>
+
+<p>Text-mode interface for use in a terminal. Comparatively complete UI.</p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/text-to-diagrams/</id>
@@ -391,45 +434,6 @@ Imagine a Puritan church where the men sit on one side, the women on the other.<
 <p>A <code>FULL OUTER JOIN</code> is a fire drill and everyone leaves, married couples together.</p>
 
 <p>And a <code>CROSS JOIN</code> is a swingers party and should never happen in a Puritan church nor your SQL.</p>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/git-clients/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">Git Clients</title>
-  <published>2019-06-14T00:00:00Z</published>
-  <updated>2019-06-14T00:00:00Z</updated>
-  
-  <category term="git"></category>
-  
-  <category term="source-control"></category>
-  
-  <category term="applications"></category>
-  
-  <category term="tools"></category>
-  
-  <category term="github"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/git-clients/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<p>Clients I have used for interacting with <code>git</code> when I need something more than the command line interface or the built-in UI <code>git gui</code>.</p>
-
-<h1><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
-
-<p>First git GUI I used. I still use it because I am familiar with it. You need to get an Atlassian account to use it.</p>
-
-<h1><a href="https://git-fork.com/">Fork</a></h1>
-
-<p>Nice git GUI. Find it faster than SourceTree. Don&rsquo;t need to create any sort of accounts. Having built-in image diff is nice.</p>
-
-<h1><a href="https://jonas.github.io/tig/">Tig</a></h1>
-
-<p>Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias <code>alias incoming='tig ..origin/master'</code> to explore incoming git changes.</p>
 
 
   ]]></content>

@@ -1,5 +1,6 @@
 title: Git Clients
-date: 2019-06-14
+created: 2019-06-14
+date: 2023-01-28
 tags: git, source-control, applications, tools, github
 ----
 
@@ -16,3 +17,7 @@ Clients I have used for interacting with `git` when I need something more than t
 # [Tig](https://jonas.github.io/tig/)
 
   Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias `alias incoming='tig ..origin/master'` to explore incoming git changes.
+
+# [Lazy Git](https://github.com/jesseduffield/lazygit)
+
+  Text-mode interface for use in a terminal. Comparatively complete UI.
