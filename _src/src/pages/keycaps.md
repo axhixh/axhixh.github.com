@@ -1,6 +1,6 @@
 title: Keycaps
 created: 2023-02-22
-date: 2023-02-22
+date: 2023-03-25
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -80,6 +80,12 @@ them in both Resin and Nylon. The whole set printed in SLA (Resin) was less than
 For the price these are definitely the best. While Asymblex Chicago Stenographer are
 my favorite, those are more than 12 times more expensive compared to these.
 
+If you are planning to use a 3D print service like JLCPCB it is better to use a set of
+10 keycaps instead of individual keycaps. You can use the 3D files from 
+[valdar](https://github.com/valdar/DCJSx10) for this. On inspection JLCPCB will raise
+an issue about thin walls for some of the keycaps. I printed extras to be safe. Most 
+of the time they work fine. I have once had some prints not work because they were too thin.
+
 ## [SQDG](https://www.thingiverse.com/thing:5198643)
 Would love to try these. Planning to print these and try them out.
 [Crides](https://github.com/crides/sqdg) has a tweaked
@@ -87,8 +93,8 @@ version of this keycap in CadQuery.
 
 I used the chocmini-whole.step from crides/sqdg Github repo to print a set
 of keycaps at [JLCPCB](https://jlcpcb.com/). The whole 36 keycaps set cost
-$3.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
-cost $7.00.
+around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
+cost $10.00.
 
 ## [Yeet](https://www.thingiverse.com/thing:4903358)
 Another sculpted keycap from shoggot. There are options for both Choc and MX

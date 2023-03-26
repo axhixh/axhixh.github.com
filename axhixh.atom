@@ -3,7 +3,7 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-02-22T00:00:00Z</updated>
+  <updated>2023-03-25T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
@@ -14,8 +14,8 @@
   <id>pages/keycaps/</id>
   <author><name>Ashish Shrestha</name></author>
   <title type="html">Keycaps</title>
-  <published>2023-02-22T00:00:00Z</published>
-  <updated>2023-02-22T00:00:00Z</updated>
+  <published>2023-03-25T00:00:00Z</published>
+  <updated>2023-03-25T00:00:00Z</updated>
   
   <category term="keyboard"></category>
   
@@ -114,6 +114,12 @@ them in both Resin and Nylon. The whole set printed in SLA (Resin) was less than
 For the price these are definitely the best. While Asymblex Chicago Stenographer are
 my favorite, those are more than 12 times more expensive compared to these.</p>
 
+<p>If you are planning to use a 3D print service like JLCPCB it is better to use a set of
+10 keycaps instead of individual keycaps. You can use the 3D files from
+<a href="https://github.com/valdar/DCJSx10">valdar</a> for this. On inspection JLCPCB will raise
+an issue about thin walls for some of the keycaps. I printed extras to be safe. Most
+of the time they work fine. I have once had some prints not work because they were too thin.</p>
+
 <h2><a href="https://www.thingiverse.com/thing:5198643">SQDG</a></h2>
 
 <p>Would love to try these. Planning to print these and try them out.
@@ -122,8 +128,8 @@ version of this keycap in CadQuery.</p>
 
 <p>I used the chocmini-whole.step from crides/sqdg Github repo to print a set
 of keycaps at <a href="https://jlcpcb.com/">JLCPCB</a>. The whole 36 keycaps set cost
-$3.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
-cost $7.00.</p>
+around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
+cost $10.00.</p>
 
 <h2><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
 
