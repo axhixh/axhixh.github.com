@@ -3,7 +3,7 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-03-25T00:00:00Z</updated>
+  <updated>2023-04-23T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
@@ -14,8 +14,8 @@
   <id>pages/keycaps/</id>
   <author><name>Ashish Shrestha</name></author>
   <title type="html">Keycaps</title>
-  <published>2023-03-25T00:00:00Z</published>
-  <updated>2023-03-25T00:00:00Z</updated>
+  <published>2023-04-23T00:00:00Z</published>
+  <updated>2023-04-23T00:00:00Z</updated>
   
   <category term="keyboard"></category>
   
@@ -30,7 +30,8 @@
     
     
 <p>List of custom keycaps for low profile  mechanical keyboards
-using Kailh Choc V1 switches, PG1350.</p>
+using Kailh Choc V1 switches, PG1350, and Choc Mini switches,
+PG1232.</p>
 
 <p>Most of the keycaps in this list are 3D printed. The keycap set
 works best with keyboards that have 3 rows are either ortholinear
@@ -77,6 +78,9 @@ The source for these files is at <a href="https://github.com/pseudoku/PseudoMake
 <p>Porcelian cold cast caps with MX spaced (19mm x 19mm). I haven&rsquo;t used these, but if
 these are anything like Chicago Stenographer, I would love to used these for MX spaced
 keyboards.</p>
+
+<p>If you want to 3D print these at 3D print service, you can use the STL files available
+at <a href="https://github.com/AlaaSaadAbdo/DES-spru">https://github.com/AlaaSaadAbdo/DES-spru</a> Remember, the Choc version have MX spacing.</p>
 
 <h2><a href="https://worklouder.cc/keycaps/">wrk. series from worklouder</a></h2>
 

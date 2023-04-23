@@ -1,11 +1,12 @@
 title: Keycaps
 created: 2023-02-22
-date: 2023-03-25
+date: 2023-04-23
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
 List of custom keycaps for low profile  mechanical keyboards
-using Kailh Choc V1 switches, PG1350.
+using Kailh Choc V1 switches, PG1350, and Choc Mini switches,
+PG1232.
 
 Most of the keycaps in this list are 3D printed. The keycap set
 works best with keyboards that have 3 rows are either ortholinear
@@ -47,6 +48,9 @@ The source for these files is at https://github.com/pseudoku/PseudoMakeMeKeyCapP
 Porcelian cold cast caps with MX spaced (19mm x 19mm). I haven't used these, but if
 these are anything like Chicago Stenographer, I would love to used these for MX spaced
 keyboards.
+
+If you want to 3D print these at 3D print service, you can use the STL files available
+at https://github.com/AlaaSaadAbdo/DES-spru Remember, the Choc version have MX spacing.
 
 ## [wrk. series from worklouder](https://worklouder.cc/keycaps/)
 This is a whole series of black keycaps. These Choc v1 keycaps have MX spacing so are
