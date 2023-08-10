@@ -3,12 +3,91 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-04-23T00:00:00Z</updated>
+  <updated>2023-08-10T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/ml-like-languages/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">ML like Languages</title>
+  <published>2023-08-10T00:00:00Z</published>
+  <updated>2023-08-10T00:00:00Z</updated>
+  
+  <category term="ml"></category>
+  
+  <category term="beam"></category>
+  
+  <category term="jvm"></category>
+  
+  <category term="dotnet"></category>
+  
+  <category term="fsharp"></category>
+  
+  <category term="gleam"></category>
+  
+  <category term="alpaca"></category>
+  
+  <category term="erlang"></category>
+  
+  <category term="ocaml"></category>
+  
+  <category term="lux"></category>
+  
+  <category term="eta"></category>
+  
+  <category term="scala"></category>
+  
+  <category term="lua"></category>
+  
+  <category term="python"></category>
+  
+  <category term="standardml"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/ml-like-languages/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Functional languages with static typing like <a href="https://smlfamily.github.io/">Standard ML</a> and
+<a href="https://ocaml.org/">OCaml</a>.</p>
+<h1 id="for-erlang-vm">For Erlang VM</h1>
+<ul>
+<li><a href="https://github.com/alpaca-lang/alpaca">Alpaca</a></li>
+<li><a href="https://gleam.run/">Gleam</a></li>
+<li><a href="https://wende.github.io/elchemy/">Elchemy</a></li>
+</ul>
+<h1 id="for-java-vm">For Java VM</h1>
+<ul>
+<li><a href="https://www.scala-lang.org/">Scala</a></li>
+<li><a href="https://kotlinlang.org/">Kotlin</a></li>
+<li><a href="https://eta-lang.org">Eta</a></li>
+<li><a href="https://github.com/Frege/frege">Frege</a></li>
+<li><a href="https://github.com/LuxLang/lux">Lux</a></li>
+<li><a href="https://flix.dev/">Flix</a></li>
+</ul>
+<h1 id="for-net-runtime">For .net Runtime</h1>
+<ul>
+<li><a href="https://fsharp.org">F#</a></li>
+</ul>
+<h1 id="transpiles-to-javascript">Transpiles to Javascript</h1>
+<ul>
+<li><a href="https://bucklescript.github.io/">BuckleScript</a></li>
+<li><a href="https://fable.io/">Fable</a></li>
+<li><a href="http://www.purescript.org/">PureScript</a></li>
+</ul>
+<h1 id="rest">Rest</h1>
+<ul>
+<li><a href="https://amulet.works/">Amulet</a> transpiles to Lua</li>
+<li><a href="http://coconut-lang.org/">Coconut</a> transpiles to Python</li>
+<li><a href="https://github.com/minoki/LunarML">LunarML</a> transpiles to Lua or Javascript</li>
+</ul>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/keycaps/</id>
@@ -32,121 +111,81 @@
 <p>List of custom keycaps for low profile  mechanical keyboards
 using Kailh Choc V1 switches, PG1350, and Choc Mini switches,
 PG1232.</p>
-
 <p>Most of the keycaps in this list are 3D printed. The keycap set
 works best with keyboards that have 3 rows are either ortholinear
 or column staggered.</p>
-
-<h1>Available to Purchase Choc v1 Keycaps</h1>
-
-<h2><a href="https://www.thingiverse.com/thing:4564253">MBK Choc Low Profile Keycaps</a></h2>
-
+<h1 id="available-to-purchase-choc-v1-keycaps">Available to Purchase Choc v1 Keycaps</h1>
+<h2 id="mbk-choc-low-profile-keycapshttpswwwthingiversecomthing4564253"><a href="https://www.thingiverse.com/thing:4564253">MBK Choc Low Profile Keycaps</a></h2>
 <p>These are keycaps designed by Max Burger. This used to be my default choice
 since it is available from multiple vendors. Needs a convex 1U design
 for thumbs. All convex designs are larger than 1U. I haven&rsquo;t tried the 1U
 convex that <a href="https://mkultra.click/mbk-convex-pom-choc-keycaps/">MKUltra</a>
 sells. Usually available in black or white. These keycaps are Choc spaced.</p>
-
 <p>You can also get versions with legend or dyed into different colours.</p>
-
 <p>The linked 3D print files aren&rsquo;t the original files. They are rendering
 made by darryldh with permission from Max Burger.</p>
-
-<h2><a href="https://chosfox.com/products/chocfox-cfx-choc-keycaps">Chocfox CFX</a></h2>
-
+<h2 id="chocfox-cfxhttpschosfoxcomproductschocfox-cfx-choc-keycaps"><a href="https://chosfox.com/products/chocfox-cfx-choc-keycaps">Chocfox CFX</a></h2>
 <p>Ergo version of MBK? The edges feel less sharp. There are no convex 1U
 version for thumb keys.</p>
-
-<h2><a href="https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps">LDSA Low Profile Keycaps</a></h2>
-
+<h2 id="ldsa-low-profile-keycapshttpslowprokbcaproductsldsa-low-profile-blank-keycaps"><a href="https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps">LDSA Low Profile Keycaps</a></h2>
 <p>These have smooth DSA profile and molded out of PBT plastic. The best thing about these
 keycaps is the 1U convex thumb keys. These keycaps are Choc spaced.</p>
-
 <p>KBD news has an <a href="https://kbd.news/LDSA-keycap-profile-1377.html">article</a> about it.</p>
-
-<h2><a href="https://www.asymplex.xyz/product/cs-chicago-stenographer-profile">Asymplex Chicago Stenogprapher</a></h2>
-
+<h2 id="asymplex-chicago-stenogprapherhttpswwwasymplexxyzproductcs-chicago-stenographer-profile"><a href="https://www.asymplex.xyz/product/cs-chicago-stenographer-profile">Asymplex Chicago Stenogprapher</a></h2>
 <p>These are my favourite keycaps. I love the feel of these keycaps. These are made to order
 and comparatively expensive. They are made of porcelain cold cast resin and available in
 many different colors. They also have convex keycaps for thumbs.</p>
-
 <p>If you want to 3D print, the design is available at <a href="https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps">https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps</a>
 The source for these files is at <a href="https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles">https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles</a></p>
-
-<h2><a href="https://www.asymplex.xyz/product/made-to-order-des_choc">Asymplex Made-to-order Choc DES</a></h2>
-
+<h2 id="asymplex-made-to-order-choc-deshttpswwwasymplexxyzproductmade-to-order-des-choc"><a href="https://www.asymplex.xyz/product/made-to-order-des_choc">Asymplex Made-to-order Choc DES</a></h2>
 <p>Porcelian cold cast caps with MX spaced (19mm x 19mm). I haven&rsquo;t used these, but if
 these are anything like Chicago Stenographer, I would love to used these for MX spaced
 keyboards.</p>
-
 <p>If you want to 3D print these at 3D print service, you can use the STL files available
 at <a href="https://github.com/AlaaSaadAbdo/DES-spru">https://github.com/AlaaSaadAbdo/DES-spru</a> Remember, the Choc version have MX spacing.</p>
-
-<h2><a href="https://worklouder.cc/keycaps/">wrk. series from worklouder</a></h2>
-
+<h2 id="wrk-series-from-worklouderhttpsworkloudercckeycaps"><a href="https://worklouder.cc/keycaps/">wrk. series from worklouder</a></h2>
 <p>This is a whole series of black keycaps. These Choc v1 keycaps have MX spacing so are
 larger 19mm x 19mm squares. There are often special editions that aren&rsquo;t black. Would work
 nicely with MX spaced Choc keyboards like Corne. However, they don&rsquo;t have convex 1U
 keycaps.</p>
-
-<h2><a href="https://www.amazon.com/Keycap-Switch-Profile-Keyboard-keycaps/dp/B0BCV9MN56?th=1">Kailh Keycap</a></h2>
-
+<h2 id="kailh-keycaphttpswwwamazoncomkeycap-switch-profile-keyboard-keycapsdpb0bcv9mn56th1"><a href="https://www.amazon.com/Keycap-Switch-Profile-Keyboard-keycaps/dp/B0BCV9MN56?th=1">Kailh Keycap</a></h2>
 <p>Flat, 2mm keycaps with legend. Never used this.</p>
-
-<h2><a href="https://shop.dailycraft.jp/en/products/gravity_keycaps?variant=39972208509125">Gravity</a></h2>
-
+<h2 id="gravityhttpsshopdailycraftjpenproductsgravity-keycapsvariant39972208509125"><a href="https://shop.dailycraft.jp/en/products/gravity_keycaps?variant=39972208509125">Gravity</a></h2>
 <p>I have been interested in these keycaps, but never tried them. They are usually out of stock when I check.
 These are 3D printed resin keycaps.</p>
-
-<h1>Choc v1 Keycaps to 3D print</h1>
-
+<h1 id="choc-v1-keycaps-to-3d-print">Choc v1 Keycaps to 3D print</h1>
 <p>There are a series of keycaps designed by Dan Schutzner, <a href="https://www.thingiverse.com/shoggot/designs">shoggot</a>.
 Most of his designs target 3 rows keyboards. This is perfecf for someone like me who like all
 keys to be 1 distance from home (#1dfh).</p>
-
 <p>I recommend joining a whole set of keycaps for each row together to print 10 keycaps
 at once. This way the whole set is like $3 instead of each keycap costing you $1.</p>
-
-<h2><a href="https://www.thingiverse.com/thing:4896661">Chicago Deep Dish</a></h2>
-
+<h2 id="chicago-deep-dishhttpswwwthingiversecomthing4896661"><a href="https://www.thingiverse.com/thing:4896661">Chicago Deep Dish</a></h2>
 <p>Haven&rsquo;t used these. Was interested in these before I saw SQDG.</p>
-
-<h2><a href="https://www.thingiverse.com/thing:5163221">DCJS</a></h2>
-
+<h2 id="dcjshttpswwwthingiversecomthing5163221"><a href="https://www.thingiverse.com/thing:5163221">DCJS</a></h2>
 <p>I have printed these keycaps using the 3D printing service from JLCPCB. I have printed
 them in both Resin and Nylon. The whole set printed in SLA (Resin) was less than $10.
 For the price these are definitely the best. While Asymblex Chicago Stenographer are
 my favorite, those are more than 12 times more expensive compared to these.</p>
-
 <p>If you are planning to use a 3D print service like JLCPCB it is better to use a set of
 10 keycaps instead of individual keycaps. You can use the 3D files from
 <a href="https://github.com/valdar/DCJSx10">valdar</a> for this. On inspection JLCPCB will raise
 an issue about thin walls for some of the keycaps. I printed extras to be safe. Most
 of the time they work fine. I have once had some prints not work because they were too thin.</p>
-
-<h2><a href="https://www.thingiverse.com/thing:5198643">SQDG</a></h2>
-
+<h2 id="sqdghttpswwwthingiversecomthing5198643"><a href="https://www.thingiverse.com/thing:5198643">SQDG</a></h2>
 <p>Would love to try these. Planning to print these and try them out.
 <a href="https://github.com/crides/sqdg">Crides</a> has a tweaked
 version of this keycap in CadQuery.</p>
-
 <p>I used the chocmini-whole.step from crides/sqdg Github repo to print a set
 of keycaps at <a href="https://jlcpcb.com/">JLCPCB</a>. The whole 36 keycaps set cost
 around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
 cost $10.00.</p>
-
-<h2><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
-
+<h2 id="yeethttpswwwthingiversecomthing4903358"><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
 <p>Another sculpted keycap from shoggot. There are options for both Choc and MX
 with either Choc or MX spacing when printing Choc keycaps.</p>
-
-<h2><a href="https://www.thingiverse.com/thing:5555215">Värdera Kailh Choc Keycaps</a></h2>
-
+<h2 id="vrdera-kailh-choc-keycapshttpswwwthingiversecomthing5555215"><a href="https://www.thingiverse.com/thing:5555215">Värdera Kailh Choc Keycaps</a></h2>
 <p>Another nice looking one that I would like to try. Looks like a lower profile
 version of LDSA.</p>
-
-<h1>Using MX Keycaps with Choc v1 Switches</h1>
-
+<h1 id="using-mx-keycaps-with-choc-v1-switches">Using MX Keycaps with Choc v1 Switches</h1>
 <p>A possible option is to use a Choc to MX adapter and use MX keycaps. Once
 such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Direct Adapter by Dodger X</a>.</p>
 
@@ -176,21 +215,13 @@ such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Dire
     
     
 <p>Clients I have used for interacting with <code>git</code> when I need something more than the command line interface or the built-in UI <code>git gui</code>.</p>
-
-<h1><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
-
+<h1 id="sourcetreehttpswwwsourcetreeappcom"><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
 <p>First git GUI I used. I still use it because I am familiar with it. You need to get an Atlassian account to use it.</p>
-
-<h1><a href="https://git-fork.com/">Fork</a></h1>
-
+<h1 id="forkhttpsgit-forkcom"><a href="https://git-fork.com/">Fork</a></h1>
 <p>Nice git GUI. Find it faster than SourceTree. Don&rsquo;t need to create any sort of accounts. Having built-in image diff is nice.</p>
-
-<h1><a href="https://jonas.github.io/tig/">Tig</a></h1>
-
+<h1 id="tighttpsjonasgithubiotig"><a href="https://jonas.github.io/tig/">Tig</a></h1>
 <p>Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias <code>alias incoming='tig ..origin/master'</code> to explore incoming git changes.</p>
-
-<h1><a href="https://github.com/jesseduffield/lazygit">Lazy Git</a></h1>
-
+<h1 id="lazy-githttpsgithubcomjesseduffieldlazygit"><a href="https://github.com/jesseduffield/lazygit">Lazy Git</a></h1>
 <p>Text-mode interface for use in a terminal. Comparatively complete UI.</p>
 
 
@@ -216,41 +247,28 @@ such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Dire
     
 <p>I prefer to use text to diagram tools because it is easier to
 version control the diagrams and see the difference between them.</p>
-
 <p>It is easier to describe in text than spend time drawing them and
 then laying them out. Auto-layout is often a time saver for these.</p>
-
 <p>List of tools for creating diagrams from text descriptions.</p>
-
-<h2><a href="https://plantuml.com/">PlantUML</a></h2>
-
+<h2 id="plantumlhttpsplantumlcom"><a href="https://plantuml.com/">PlantUML</a></h2>
 <p>Includes all the common UML diagrams. I like that I can make the
 diagrams &ldquo;handwritten&rdquo;. It is useful to indicate they represent
 draft diagrams.</p>
-
-<h2><a href="http://mermaid-js.github.io/mermaid/">Mermaid</a></h2>
-
+<h2 id="mermaidhttpmermaid-jsgithubiomermaid"><a href="http://mermaid-js.github.io/mermaid/">Mermaid</a></h2>
 <p>Looks good. I haven&rsquo;t used it much. Easy to get started without
 installing anything.</p>
-
-<h2><a href="https://diagrams.mingrammer.com/">Diagrams</a></h2>
-
+<h2 id="diagramshttpsdiagramsmingrammercom"><a href="https://diagrams.mingrammer.com/">Diagrams</a></h2>
 <p>Generate cloud architecture diagrams from description written as
 Python code description. Supports major cloud providers and Kubernetes.</p>
-
-<h2><a href="https://d2lang.com/tour/intro/">D2</a></h2>
-
+<h2 id="d2httpsd2langcomtourintro"><a href="https://d2lang.com/tour/intro/">D2</a></h2>
 <p>D2, Declarative Diagramming, is new language for text to diagram.
 It has a multiple layout engines and extensions. The diagrams it
 generates are very clean. The language is readable.</p>
-
 <p>Alternatives to PlantUML that looks interesting are:</p>
-
 <ol>
 <li><a href="http://www.nomnoml.com/">Nomnoml</a></li>
 <li><a href="https://zenuml.com">ZenUML</a></li>
 </ol>
-
 <p><a href="https://text-to-diagram.com">Text to Diagram</a> website has a nice list
 of diagramming tools that you can compare.</p>
 
@@ -280,13 +298,9 @@ of diagramming tools that you can compare.</p>
     
     
 <p>While reading an article on making energy efficient website on <a href="https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website.html">Low ← Tech Magazine</a>, I noticed that they use dithering to reduce the size of the image. I reduce the number of colors in the palette when I digitize my notebooks. Reducing the number of colours for a photo makes it look bad due to banding; dithering helps. <a href="https://en.wikipedia.org/wiki/Dither">Wikipedia</a> defines dither as <em>an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images.</em></p>
-
 <p>The different dithering algorithms are all about the feedback process that diffuses the quantization error to neighbouring pixels. The different algorithms are documented at <a href="https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html">https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html</a></p>
-
 <p>There are also algorithms that introduce noise in an ordered manner instead of diffusing the error to overcome the banding. These are called ordered dithering. These have more speckling, but the algorithm is fast. In fact, Low ← Tech Magazine chose to use ordered Bayes to dither its images.</p>
-
 <p><a href="https://github.com/esimov/dithergo">DitherGo</a> and <a href="https://app.dithermark.com">DitherMark</a> have implementations of the different dithering algorithms.</p>
-
 <p>To read more about designing websites for solar power or making them energy efficient checkout <a href="https://github.com/lowtechmag/solar/wiki/Solar-Web-Design">Solar Web Design</a></p>
 
 
@@ -317,15 +331,11 @@ of diagramming tools that you can compare.</p>
 <p>Open source software for smart crop. Smart crop enables batch
 cropping of images that are useful and not just from the middle
 of the image.</p>
-
-<h1><a href="https://github.com/jwagner/smartcrop.js">SmartCrop.js</a></h1>
-
+<h1 id="smartcropjshttpsgithubcomjwagnersmartcropjs"><a href="https://github.com/jwagner/smartcrop.js">SmartCrop.js</a></h1>
 <p>A simple implementation of smart crop in Javascript. The algorigthm
 used is simple and has inspired many implementations in differnt
 languages.</p>
-
 <p>From the SmartCrop.js README:</p>
-
 <pre><code>Smartcrop.js works using fairly dumb image processing. In short:
 
 1. Find edges using laplace
@@ -336,14 +346,10 @@ languages.</p>
 6. Rank them using an importance function to focus the detail in the center and avoid it in the edges.
 7. Output the candidate crop with the highest rank
 </code></pre>
-
-<h1><a href="https://github.com/keplerlab/katna">Katna</a></h1>
-
+<h1 id="katnahttpsgithubcomkeplerlabkatna"><a href="https://github.com/keplerlab/katna">Katna</a></h1>
 <p>Supports both video and images. The image smart crop is based on smartcrop.js.
 It is written in Python.</p>
-
-<h1><a href="http://thumbor.org/">Thumbor</a></h1>
-
+<h1 id="thumborhttpthumbororg"><a href="http://thumbor.org/">Thumbor</a></h1>
 <p>Another smart crop program written in Python. It uses OpenCV for face detection.
 Other detectors it uses for identifying features for smart crop is documented at
 <a href="https://thumbor.readthedocs.io/en/latest/detection_algorithms.html">https://thumbor.readthedocs.io/en/latest/detection_algorithms.html</a></p>
@@ -379,29 +385,19 @@ Other detectors it uses for identifying features for smart crop is documented at
 logs and other lists in paper notesbooks. When I am finish a note-
 book, I like to scan it and convert it into a PDF for future. It
 is also easier to archive it.</p>
-
 <p>OCR isn&rsquo;t a requirement for me at the moment.</p>
-
 <p>Listing programs I have found useful for scanning and making PDFs.</p>
-
-<h2><a href="https://github.com/the-paperless-project/paperless">paperless</a></h2>
-
+<h2 id="paperlesshttpsgithubcomthe-paperless-projectpaperless"><a href="https://github.com/the-paperless-project/paperless">paperless</a></h2>
 <p>Full document management system, that scans, indexes and archives
 all paper documents. Supports OCR and searching of documents.</p>
-
-<h2><a href="https://github.com/Flameeyes/unpaper">unpaper</a></h2>
-
+<h2 id="unpaperhttpsgithubcomflameeyesunpaper"><a href="https://github.com/Flameeyes/unpaper">unpaper</a></h2>
 <p>Unpaper is a post processing program to clean scanned images. It
 is used to straighten, despeckle the scanned documents. This
 program is used by paperless.</p>
-
-<h2><a href="https://mzucker.github.io/2016/09/20/noteshrink.html">noteshrink</a></h2>
-
+<h2 id="noteshrinkhttpsmzuckergithubio20160920noteshrinkhtml"><a href="https://mzucker.github.io/2016/09/20/noteshrink.html">noteshrink</a></h2>
 <p>Noteshrink is meant to process hand written notes. This is the
 program I used to convert my scanned notebook to PDFs.</p>
-
-<h2><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2015/04/02/office-lens-comes-to-iphone-and-android/">Office Lens</a></h2>
-
+<h2 id="office-lenshttpswwwmicrosoftcomen-usmicrosoft-365blog20150402office-lens-comes-to-iphone-and-android"><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2015/04/02/office-lens-comes-to-iphone-and-android/">Office Lens</a></h2>
 <p>Office Lens is a mobile phone app from Microsoft. This is a
 great solution when I only have a few pages to scan. However,
 it is too tedious to scan a whole notebook with it. I prefer
@@ -430,122 +426,22 @@ to use desktop scanner.</p>
   <content type="html"><![CDATA[
     
     
-<h1>List of Fonts for Programming</h1>
-
+<h1 id="list-of-fonts-for-programming">List of Fonts for Programming</h1>
 <p>Monospaced fonts for text editors, IDE and terminals. Mostly free and some open source fonts. Only fonts I have tried.</p>
-
-<h2>Cascadia Code</h2>
-
+<h2 id="cascadia-code">Cascadia Code</h2>
 <p>Font programming ligatures from Microsoft. <a href="https://github.com/microsoft/cascadia-code">https://github.com/microsoft/cascadia-code</a></p>
-
-<h2>Fira Code</h2>
-
+<h2 id="fira-code">Fira Code</h2>
 <p>My first font with ligatures. <a href="https://github.com/tonsky/FiraCode">https://github.com/tonsky/FiraCode</a> My default font till recently.</p>
-
-<h2>JetBrains Mono</h2>
-
+<h2 id="jetbrains-mono">JetBrains Mono</h2>
 <p>Font from JetBrains <a href="https://www.jetbrains.com/lp/mono/">https://www.jetbrains.com/lp/mono/</a> Default font in JetBrains IDEs since 2020.1 versions. Find it too blocky compared to Fira Code.</p>
-
-<h2>Monoid</h2>
-
+<h2 id="monoid">Monoid</h2>
 <p>Very sharp even at small size <a href="https://larsenwork.com/monoid/">https://larsenwork.com/monoid/</a></p>
-
-<h2>Source Code Pro</h2>
-
+<h2 id="source-code-pro">Source Code Pro</h2>
 <p>OpenType font from Adobe. Has extra light version. Doesn&rsquo;t have ligatures. <a href="https://adobe-fonts.github.io/source-code-pro/">https://adobe-fonts.github.io/source-code-pro/</a></p>
-
-<h2>Hasklig</h2>
-
+<h2 id="hasklig">Hasklig</h2>
 <p>Fork of Source Code Pro with programming ligatures. Ligature substitution wasn&rsquo;t as good as Fira Code. Ligature substituion changed, and added lots of new ligatures. <a href="https://github.com/i-tu/Hasklig">https://github.com/i-tu/Hasklig</a></p>
-
-<h2>Victor Mono</h2>
-
+<h2 id="victor-mono">Victor Mono</h2>
 <p>Another clean, thin font. Has cursive italic style for informal looks. Currently my default because of how condensed and clean it is. <a href="https://rubjo.github.io/victor-mono/">https://rubjo.github.io/victor-mono/</a></p>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/ml-like-languages/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">ML like Languages</title>
-  <published>2019-12-08T00:00:00Z</published>
-  <updated>2019-12-08T00:00:00Z</updated>
-  
-  <category term="ml"></category>
-  
-  <category term="beam"></category>
-  
-  <category term="jvm"></category>
-  
-  <category term="dotnet"></category>
-  
-  <category term="fsharp"></category>
-  
-  <category term="gleam"></category>
-  
-  <category term="alpaca"></category>
-  
-  <category term="erlang"></category>
-  
-  <category term="ocaml"></category>
-  
-  <category term="lux"></category>
-  
-  <category term="eta"></category>
-  
-  <category term="scala"></category>
-  
-  <category term="lua"></category>
-  
-  <category term="python"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/ml-like-languages/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<p>Functional languages with static typing.</p>
-
-<h1>For Erlang VM</h1>
-
-<ul>
-<li><a href="https://github.com/alpaca-lang/alpaca">Alpaca</a></li>
-<li><a href="https://gleam.run/">Gleam</a></li>
-<li><a href="https://wende.github.io/elchemy/">Elchemy</a></li>
-</ul>
-
-<h1>For Java VM</h1>
-
-<ul>
-<li><a href="https://www.scala-lang.org/">Scala</a></li>
-<li><a href="https://kotlinlang.org/">Kotlin</a></li>
-<li><a href="https://eta-lang.org">Eta</a></li>
-<li><a href="https://github.com/Frege/frege">Frege</a></li>
-<li><a href="https://github.com/LuxLang/lux">Lux</a></li>
-<li><a href="https://flix.dev/">Flix</a></li>
-</ul>
-
-<h1>For .net Runtime</h1>
-
-<ul>
-<li><a href="https://fsharp.org">F#</a></li>
-</ul>
-
-<h1>Transpiles to Javascript</h1>
-
-<ul>
-<li><a href="https://bucklescript.github.io/">BuckleScript</a></li>
-<li><a href="https://fable.io/">Fable</a></li>
-<li><a href="http://www.purescript.org/">PureScript</a></li>
-</ul>
-
-<h1>Rest</h1>
-
-<ul>
-<li><a href="https://amulet.works/">Amulet</a> transpiles to Lua</li>
-<li><a href="http://coconut-lang.org/">Coconut</a> transpiles to Python</li>
-</ul>
 
 
   ]]></content>
@@ -565,18 +461,12 @@ to use desktop scanner.</p>
     
     
 <p>A memorable explanation of SQL joins that I read somewhere on Internet. Hacker News or Reddit comments?</p>
-
 <p>I was taught the Puritan church model for joins. It’s a little corny and maybe hasn’t aged particularly well, but gets the job done. It goes something like this:
 Imagine a Puritan church where the men sit on one side, the women on the other.</p>
-
 <p>An <code>INNER JOIN</code> is when the married couples hold hands and leave at the end, leaving all the singles behind.</p>
-
 <p>A <code>LEFT JOIN</code> is when the women all leave - the married ones take their husbands and the single women go alone.</p>
-
 <p>A <code>RIGHT JOIN</code> is the same thing, except the men all leave and take the wives and leave the single women behind. It’s rude to do this, in a Puritan church and in your SQL.</p>
-
 <p>A <code>FULL OUTER JOIN</code> is a fire drill and everyone leaves, married couples together.</p>
-
 <p>And a <code>CROSS JOIN</code> is a swingers party and should never happen in a Puritan church nor your SQL.</p>
 
 
@@ -603,11 +493,8 @@ Imagine a Puritan church where the men sit on one side, the women on the other.<
     
     
 <p>A great way to sample different music genre. The list of 20 CDs included with original iPod. Listen with <a href="https://open.spotify.com/playlist/7D4SVuRHKnJ96Z7NtLWV6L?si=f2xsEcBkRs6heVqI-v5-AA">Spotify playlist</a></p>
-
 <p><a href="http://nobi.com/entry-1239.html">Article</a> about the 20 CDs and introduction of original iPod.</p>
-
-<h1>CD List</h1>
-
+<h1 id="cd-list">CD List</h1>
 <ol>
 <li>Classic Yo-Yo by Yo-Yo Ma</li>
 <li>Mozart:Symphonies Nos. 35-41 by Karl Böhm</li>

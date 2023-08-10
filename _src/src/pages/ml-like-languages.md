@@ -1,10 +1,11 @@
 title: ML like Languages
 created: 2019, Jun 18
-date: 2019-12-08
-tags: ml, beam, jvm, dotnet, fsharp, gleam, alpaca, erlang, ocaml, lux, eta, scala, lua, python
+date: 2023-08-10
+tags: ml, beam, jvm, dotnet, fsharp, gleam, alpaca, erlang, ocaml, lux, eta, scala, lua, python, standardml
 ----
 
-Functional languages with static typing.
+Functional languages with static typing like [Standard ML](https://smlfamily.github.io/) and
+[OCaml](https://ocaml.org/). 
 
 # For Erlang VM
 
@@ -35,3 +36,4 @@ Functional languages with static typing.
 
  - [Amulet](https://amulet.works/) transpiles to Lua
  - [Coconut](http://coconut-lang.org/) transpiles to Python
+ - [LunarML](https://github.com/minoki/LunarML) transpiles to Lua or Javascript
