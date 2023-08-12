@@ -1,6 +1,6 @@
 title: Keycaps
 created: 2023-02-22
-date: 2023-04-23
+date: 2023-08-12
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -104,9 +104,13 @@ cost $10.00.
 Another sculpted keycap from shoggot. There are options for both Choc and MX
 with either Choc or MX spacing when printing Choc keycaps.
 
-## [Värdera Kailh Choc Keycaps](https://www.thingiverse.com/thing:5555215)
+## [Värdera Kailh Choc Keycaps](https://github.com/braindefender/vardera-kailh-choc-keycaps)
 Another nice looking one that I would like to try. Looks like a lower profile
 version of LDSA.
+
+## [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps/)
+This is from the designer of Värdera, Nikita Shirokov aka `braindefender`.
+It comes in six different variants.
 
 # Using MX Keycaps with Choc v1 Switches
 
