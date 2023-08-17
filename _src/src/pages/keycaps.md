@@ -1,6 +1,6 @@
 title: Keycaps
 created: 2023-02-22
-date: 2023-08-12
+date: 2023-08-17
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
