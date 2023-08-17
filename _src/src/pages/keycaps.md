@@ -44,6 +44,11 @@ many different colors. They also have convex keycaps for thumbs.
 If you want to 3D print, the design is available at https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps
 The source for these files is at https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles
 
+Dan Schutzner, [shoggot](https://www.thingiverse.com/shoggot/designs) has a remix of this
+design at [CSL-tall Choc Keycaps](https://www.thingiverse.com/thing:4862025). If you want
+to get this printed with 3D printing service consider using these files from Majyk Oyster
+[CSL-tall Choc Keycaps - grappe edition ](https://www.printables.com/model/418231-csl-tall-choc-keycaps-grappe-edition)
+
 ## [Asymplex Made-to-order Choc DES](https://www.asymplex.xyz/product/made-to-order-des_choc)
 Porcelian cold cast caps with MX spaced (19mm x 19mm). I haven't used these, but if
 these are anything like Chicago Stenographer, I would love to used these for MX spaced
