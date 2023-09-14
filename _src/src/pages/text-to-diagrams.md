@@ -1,5 +1,5 @@
 title: Text to Diagrams
-created: 2020-03-27
+created: 2020, Mar 27
 date: 2023-01-24
 tags: diagram, text, tools
 ----

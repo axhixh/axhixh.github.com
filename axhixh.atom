@@ -3,7 +3,7 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-08-17T00:00:00Z</updated>
+  <updated>2023-09-14T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
@@ -14,8 +14,8 @@
   <id>pages/keycaps/</id>
   <author><name>Ashish Shrestha</name></author>
   <title type="html">Keycaps</title>
-  <published>2023-08-17T00:00:00Z</published>
-  <updated>2023-08-17T00:00:00Z</updated>
+  <published>2023-09-14T00:00:00Z</published>
+  <updated>2023-09-14T00:00:00Z</updated>
   
   <category term="keyboard"></category>
   
@@ -96,6 +96,15 @@ my favorite, those are more than 12 times more expensive compared to these.</p>
 <a href="https://github.com/valdar/DCJSx10">valdar</a> for this. On inspection JLCPCB will raise
 an issue about thin walls for some of the keycaps. I printed extras to be safe. Most
 of the time they work fine. I have once had some prints not work because they were too thin.</p>
+<h2 id="klp-lamhttpsgithubcombraindefenderklp-lame-keycaps"><a href="https://github.com/braindefender/KLP-Lame-Keycaps/">KLP Lamé</a></h2>
+<p>This is from the designer of Värdera, Nikita Shirokov aka <code>braindefender</code>.
+It comes in six different variants.</p>
+<h2 id="olshttpsgithubcomdeltawhyols"><a href="https://github.com/DeltaWhy/ols">OLS</a></h2>
+<p>OLP is inspired by LDSA and <a href="https://github.com/cubiq/OPK">OPK</a>, and has spherical top
+key cap. Unlike LDSA, it has raised R2 and R4 key caps. It is designed using CadQuery.</p>
+<p>There are files ready for 3D printing services at <a href="https://github.com/DeltaWhy/ols/tree/main/generated/sprue">generated/sprue</a>
+folder. There are versions for MX, Choc with Choc spacing (Choc-small) and Choc
+with MX spacing (Choc-large).</p>
 <h2 id="sqdghttpswwwthingiversecomthing5198643"><a href="https://www.thingiverse.com/thing:5198643">SQDG</a></h2>
 <p>Would love to try these. Planning to print these and try them out.
 <a href="https://github.com/crides/sqdg">Crides</a> has a tweaked
@@ -104,15 +113,12 @@ version of this keycap in CadQuery.</p>
 of keycaps at <a href="https://jlcpcb.com/">JLCPCB</a>. The whole 36 keycaps set cost
 around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
 cost $10.00.</p>
-<h2 id="yeethttpswwwthingiversecomthing4903358"><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
-<p>Another sculpted keycap from shoggot. There are options for both Choc and MX
-with either Choc or MX spacing when printing Choc keycaps.</p>
 <h2 id="vrdera-kailh-choc-keycapshttpsgithubcombraindefendervardera-kailh-choc-keycaps"><a href="https://github.com/braindefender/vardera-kailh-choc-keycaps">Värdera Kailh Choc Keycaps</a></h2>
 <p>Another nice looking one that I would like to try. Looks like a lower profile
 version of LDSA.</p>
-<h2 id="klp-lamhttpsgithubcombraindefenderklp-lame-keycaps"><a href="https://github.com/braindefender/KLP-Lame-Keycaps/">KLP Lamé</a></h2>
-<p>This is from the designer of Värdera, Nikita Shirokov aka <code>braindefender</code>.
-It comes in six different variants.</p>
+<h2 id="yeethttpswwwthingiversecomthing4903358"><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
+<p>Another sculpted keycap from shoggot. There are options for both Choc and MX
+with either Choc or MX spacing when printing Choc keycaps.</p>
 <h1 id="using-mx-keycaps-with-choc-v1-switches">Using MX Keycaps with Choc v1 Switches</h1>
 <p>A possible option is to use a Choc to MX adapter and use MX keycaps. Once
 such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Direct Adapter by Dodger X</a>.</p>

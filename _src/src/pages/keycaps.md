@@ -1,6 +1,6 @@
 title: Keycaps
-created: 2023-02-22
-date: 2023-08-17
+created: 2023, Feb 22
+date: 2023-09-14
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -95,6 +95,18 @@ If you are planning to use a 3D print service like JLCPCB it is better to use a 
 an issue about thin walls for some of the keycaps. I printed extras to be safe. Most 
 of the time they work fine. I have once had some prints not work because they were too thin.
 
+## [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps/)
+This is from the designer of Värdera, Nikita Shirokov aka `braindefender`.
+It comes in six different variants.
+
+## [OLS](https://github.com/DeltaWhy/ols)
+OLP is inspired by LDSA and [OPK](https://github.com/cubiq/OPK), and has spherical top
+key cap. Unlike LDSA, it has raised R2 and R4 key caps. It is designed using CadQuery.
+
+There are files ready for 3D printing services at [generated/sprue](https://github.com/DeltaWhy/ols/tree/main/generated/sprue)
+folder. There are versions for MX, Choc with Choc spacing (Choc-small) and Choc 
+with MX spacing (Choc-large).
+
 ## [SQDG](https://www.thingiverse.com/thing:5198643)
 Would love to try these. Planning to print these and try them out.
 [Crides](https://github.com/crides/sqdg) has a tweaked
@@ -105,17 +117,13 @@ of keycaps at [JLCPCB](https://jlcpcb.com/). The whole 36 keycaps set cost
 around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
 cost $10.00.
 
-## [Yeet](https://www.thingiverse.com/thing:4903358)
-Another sculpted keycap from shoggot. There are options for both Choc and MX
-with either Choc or MX spacing when printing Choc keycaps.
-
 ## [Värdera Kailh Choc Keycaps](https://github.com/braindefender/vardera-kailh-choc-keycaps)
 Another nice looking one that I would like to try. Looks like a lower profile
 version of LDSA.
 
-## [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps/)
-This is from the designer of Värdera, Nikita Shirokov aka `braindefender`.
-It comes in six different variants.
+## [Yeet](https://www.thingiverse.com/thing:4903358)
+Another sculpted keycap from shoggot. There are options for both Choc and MX
+with either Choc or MX spacing when printing Choc keycaps.
 
 # Using MX Keycaps with Choc v1 Switches
 
