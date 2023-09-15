@@ -1,5 +1,5 @@
 title: Git Clients
-created: 2019, Jun 14
+created: Jun 14, 2019
 date: 2023-01-28
 tags: git, source-control, applications, tools, github
 ----

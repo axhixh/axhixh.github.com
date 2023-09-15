@@ -1,5 +1,5 @@
 title: ML like Languages
-created: 2019, Jun 18
+created: Jun 18, 2019
 date: 2023-08-10
 tags: ml, beam, jvm, dotnet, fsharp, gleam, alpaca, erlang, ocaml, lux, eta, scala, lua, python, standardml
 ----

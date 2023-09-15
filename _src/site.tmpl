@@ -6,7 +6,7 @@
   <title>axhixh</title>
   <link rel="me" href="https://www.axhixh.com.np" />
   <link rel="me" href="https://github.com/axhixh/" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- open graph -->
   <meta property="og:title" content="{{.Title}}" />
@@ -40,7 +40,7 @@
 </html>{{ end }}
 
 {{define "date"}}
-<time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ .Format "2006, Jan 02" }}</time>
+<time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ .Format "Jan 02, 2006" }}</time>
 {{end}}
 
 {{ define "page" }}
@@ -50,21 +50,16 @@
 {{ end }}
 
 {{ define "post" }}
-<h1 class="title has-text-danger">{{ .Title }}</h1>
-<div class="field is-grouped is-grouped-multiline">
+<h1 class="title is-2">{{ .Title }}</h1>
+<h2 class="subtitle has-text-grey">
 {{ if .Other.Created }}
-<div class="control">
-<div class="tags has-addons"><span class="tag is-black">Date</span><span class="tag">{{ .Other.Created }}</span></div>
-<div class="tags has-addons"><span class="tag is-black">Last Updated</span><span class="tag">{{template "date" .Date}}</span></div>
-</div>
+{{ .Other.Created }}. Updated at {{template "date" .Date}}
 {{ else }}
-<div class="control">
-<div class="tags has-addons"> <span class="tag is-black">Date</span><span class="tag">{{template "date" .Date}}</span></div>
-</div>
+{{template "date" .Date}}
 {{end}}
-</div>
+</h2>
 <div class="tags">{{ range .Tags}}
-<a href="/tags/{{.}}/"><span class="tag is-dark">{{.}}</span></a>&nbsp;
+<a href="/tags/{{.}}/"><span class="tag has-text-danger-dark has-background-danger-light">{{.}}</span></a>&nbsp;
 {{end}}</div>
 <div class='content'>
 {{ .Content }}
