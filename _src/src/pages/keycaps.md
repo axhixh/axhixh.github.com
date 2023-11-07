@@ -1,6 +1,6 @@
 title: Keycaps
 created: Feb 22, 2023
-date: 2023-09-14
+date: 2023-11-06
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -82,6 +82,11 @@ at once. This way the whole set is like $3 instead of each keycap costing you $1
 
 ## [Chicago Deep Dish](https://www.thingiverse.com/thing:4896661)
 Haven't used these. Was interested in these before I saw SQDG. 
+
+## [Cylindrical Minimal Y, CMY](https://github.com/sadekbaroudi/fingerpunch/blob/master/keycaps/CMY/README.md)
+Keycaps with standard width (x) but only 15.4mm height (y). Supports MX, Choc v1,
+KS-27 and KS-33 switches. Has 5 degree and 12 degree vertical tilt. The keycap has
+files ready for 3D printing services.
 
 ## [DCJS](https://www.thingiverse.com/thing:5163221)
 I have printed these keycaps using the 3D printing service from JLCPCB. I have printed
