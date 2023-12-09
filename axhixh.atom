@@ -3,7 +3,7 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-09-14T00:00:00Z</updated>
+  <updated>2023-12-09T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
@@ -11,11 +11,93 @@
 
 
 <entry>
+  <id>pages/ml-like-languages/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">ML like Languages</title>
+  <published>2023-12-09T00:00:00Z</published>
+  <updated>2023-12-09T00:00:00Z</updated>
+  
+  <category term="ml"></category>
+  
+  <category term="beam"></category>
+  
+  <category term="jvm"></category>
+  
+  <category term="dotnet"></category>
+  
+  <category term="fsharp"></category>
+  
+  <category term="gleam"></category>
+  
+  <category term="alpaca"></category>
+  
+  <category term="erlang"></category>
+  
+  <category term="ocaml"></category>
+  
+  <category term="lux"></category>
+  
+  <category term="eta"></category>
+  
+  <category term="scala"></category>
+  
+  <category term="lua"></category>
+  
+  <category term="python"></category>
+  
+  <category term="standardml"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/ml-like-languages/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Functional languages with static typing like <a href="https://smlfamily.github.io/">Standard ML</a> and
+<a href="https://ocaml.org/">OCaml</a>.</p>
+<h1 id="for-erlang-vm">For Erlang VM</h1>
+<ul>
+<li><a href="https://github.com/alpaca-lang/alpaca">Alpaca</a></li>
+<li><a href="https://gleam.run/">Gleam</a></li>
+<li><a href="https://wende.github.io/elchemy/">Elchemy</a></li>
+</ul>
+<h1 id="for-java-vm">For Java VM</h1>
+<ul>
+<li><a href="https://www.scala-lang.org/">Scala</a></li>
+<li><a href="https://kotlinlang.org/">Kotlin</a></li>
+<li><a href="https://eta-lang.org">Eta</a></li>
+<li><a href="https://github.com/Frege/frege">Frege</a></li>
+<li><a href="https://github.com/LuxLang/lux">Lux</a></li>
+<li><a href="https://flix.dev/">Flix</a></li>
+</ul>
+<h1 id="for-net-runtime">For .net Runtime</h1>
+<ul>
+<li><a href="https://fsharp.org">F#</a></li>
+</ul>
+<h1 id="transpiles-to-javascript">Transpiles to Javascript</h1>
+<ul>
+<li><a href="https://bucklescript.github.io/">BuckleScript</a></li>
+<li><a href="https://fable.io/">Fable</a></li>
+<li><a href="http://www.purescript.org/">PureScript</a></li>
+</ul>
+<h1 id="rest">Rest</h1>
+<ul>
+<li><a href="https://amulet.works/">Amulet</a> transpiles to Lua</li>
+<li><a href="http://coconut-lang.org/">Coconut</a> transpiles to Python</li>
+<li><a href="https://github.com/minoki/LunarML">LunarML</a> transpiles to Lua or Javascript</li>
+<li><a href="https://www.roc-lang.org">Roc</a> compiles to machine code or WebAssembly. I find it
+interesting how it separates platforms and applications. Could we have a platform
+that targets microcontrollers?</li>
+</ul>
+
+
+  ]]></content>
+</entry>
+
+<entry>
   <id>pages/keycaps/</id>
   <author><name>Ashish Shrestha</name></author>
   <title type="html">Keycaps</title>
-  <published>2023-09-14T00:00:00Z</published>
-  <updated>2023-09-14T00:00:00Z</updated>
+  <published>2023-11-06T00:00:00Z</published>
+  <updated>2023-11-06T00:00:00Z</updated>
   
   <category term="keyboard"></category>
   
@@ -86,6 +168,10 @@ keys to be 1 distance from home (#1dfh).</p>
 at once. This way the whole set is like $3 instead of each keycap costing you $1.</p>
 <h2 id="chicago-deep-dishhttpswwwthingiversecomthing4896661"><a href="https://www.thingiverse.com/thing:4896661">Chicago Deep Dish</a></h2>
 <p>Haven&rsquo;t used these. Was interested in these before I saw SQDG.</p>
+<h2 id="cylindrical-minimal-y-cmyhttpsgithubcomsadekbaroudifingerpunchblobmasterkeycapscmyreadmemd"><a href="https://github.com/sadekbaroudi/fingerpunch/blob/master/keycaps/CMY/README.md">Cylindrical Minimal Y, CMY</a></h2>
+<p>Keycaps with standard width (x) but only 15.4mm height (y). Supports MX, Choc v1,
+KS-27 and KS-33 switches. Has 5 degree and 12 degree vertical tilt. The keycap has
+files ready for 3D printing services.</p>
 <h2 id="dcjshttpswwwthingiversecomthing5163221"><a href="https://www.thingiverse.com/thing:5163221">DCJS</a></h2>
 <p>I have printed these keycaps using the 3D printing service from JLCPCB. I have printed
 them in both Resin and Nylon. The whole set printed in SLA (Resin) was less than $10.
@@ -122,85 +208,6 @@ with either Choc or MX spacing when printing Choc keycaps.</p>
 <h1 id="using-mx-keycaps-with-choc-v1-switches">Using MX Keycaps with Choc v1 Switches</h1>
 <p>A possible option is to use a Choc to MX adapter and use MX keycaps. Once
 such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Direct Adapter by Dodger X</a>.</p>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/ml-like-languages/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">ML like Languages</title>
-  <published>2023-08-10T00:00:00Z</published>
-  <updated>2023-08-10T00:00:00Z</updated>
-  
-  <category term="ml"></category>
-  
-  <category term="beam"></category>
-  
-  <category term="jvm"></category>
-  
-  <category term="dotnet"></category>
-  
-  <category term="fsharp"></category>
-  
-  <category term="gleam"></category>
-  
-  <category term="alpaca"></category>
-  
-  <category term="erlang"></category>
-  
-  <category term="ocaml"></category>
-  
-  <category term="lux"></category>
-  
-  <category term="eta"></category>
-  
-  <category term="scala"></category>
-  
-  <category term="lua"></category>
-  
-  <category term="python"></category>
-  
-  <category term="standardml"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/ml-like-languages/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<p>Functional languages with static typing like <a href="https://smlfamily.github.io/">Standard ML</a> and
-<a href="https://ocaml.org/">OCaml</a>.</p>
-<h1 id="for-erlang-vm">For Erlang VM</h1>
-<ul>
-<li><a href="https://github.com/alpaca-lang/alpaca">Alpaca</a></li>
-<li><a href="https://gleam.run/">Gleam</a></li>
-<li><a href="https://wende.github.io/elchemy/">Elchemy</a></li>
-</ul>
-<h1 id="for-java-vm">For Java VM</h1>
-<ul>
-<li><a href="https://www.scala-lang.org/">Scala</a></li>
-<li><a href="https://kotlinlang.org/">Kotlin</a></li>
-<li><a href="https://eta-lang.org">Eta</a></li>
-<li><a href="https://github.com/Frege/frege">Frege</a></li>
-<li><a href="https://github.com/LuxLang/lux">Lux</a></li>
-<li><a href="https://flix.dev/">Flix</a></li>
-</ul>
-<h1 id="for-net-runtime">For .net Runtime</h1>
-<ul>
-<li><a href="https://fsharp.org">F#</a></li>
-</ul>
-<h1 id="transpiles-to-javascript">Transpiles to Javascript</h1>
-<ul>
-<li><a href="https://bucklescript.github.io/">BuckleScript</a></li>
-<li><a href="https://fable.io/">Fable</a></li>
-<li><a href="http://www.purescript.org/">PureScript</a></li>
-</ul>
-<h1 id="rest">Rest</h1>
-<ul>
-<li><a href="https://amulet.works/">Amulet</a> transpiles to Lua</li>
-<li><a href="http://coconut-lang.org/">Coconut</a> transpiles to Python</li>
-<li><a href="https://github.com/minoki/LunarML">LunarML</a> transpiles to Lua or Javascript</li>
-</ul>
 
 
   ]]></content>
