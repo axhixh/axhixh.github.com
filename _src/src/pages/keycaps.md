@@ -1,6 +1,6 @@
 title: Keycaps
 created: Feb 22, 2023
-date: 2023-11-06
+date: 2023-12-19
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -43,6 +43,7 @@ many different colors. They also have convex keycaps for thumbs.
 
 If you want to 3D print, the design is available at https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps
 The source for these files is at https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles
+The repo also contains files ready for 3D print services at https://github.com/sporkus/PseudoMakeMeKeyCapProfiles/tree/master/stl/Choc
 
 Dan Schutzner, [shoggot](https://www.thingiverse.com/shoggot/designs) has a remix of this
 design at [CSL-tall Choc Keycaps](https://www.thingiverse.com/thing:4862025). If you want
@@ -56,6 +57,7 @@ keyboards.
 
 If you want to 3D print these at 3D print service, you can use the STL files available
 at https://github.com/AlaaSaadAbdo/DES-spru Remember, the Choc version have MX spacing.
+You can also get print service ready files at https://github.com/grassfedreeve/PseudoMakeMeKeyCapProfiles/tree/master/STLS
 
 ## [wrk. series from worklouder](https://worklouder.cc/keycaps/)
 This is a whole series of black keycaps. These Choc v1 keycaps have MX spacing so are

@@ -3,12 +3,135 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-12-09T00:00:00Z</updated>
+  <updated>2023-12-19T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/keycaps/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Keycaps</title>
+  <published>2023-12-19T00:00:00Z</published>
+  <updated>2023-12-19T00:00:00Z</updated>
+  
+  <category term="keyboard"></category>
+  
+  <category term="keycap"></category>
+  
+  <category term="mechanical-keyboard"></category>
+  
+  <category term="3d-print"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/keycaps/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>List of custom keycaps for low profile  mechanical keyboards
+using Kailh Choc V1 switches, PG1350, and Choc Mini switches,
+PG1232.</p>
+<p>Most of the keycaps in this list are 3D printed. The keycap set
+works best with keyboards that have 3 rows are either ortholinear
+or column staggered.</p>
+<h1 id="available-to-purchase-choc-v1-keycaps">Available to Purchase Choc v1 Keycaps</h1>
+<h2 id="mbk-choc-low-profile-keycapshttpswwwthingiversecomthing4564253"><a href="https://www.thingiverse.com/thing:4564253">MBK Choc Low Profile Keycaps</a></h2>
+<p>These are keycaps designed by Max Burger. This used to be my default choice
+since it is available from multiple vendors. Needs a convex 1U design
+for thumbs. All convex designs are larger than 1U. I haven&rsquo;t tried the 1U
+convex that <a href="https://mkultra.click/mbk-convex-pom-choc-keycaps/">MKUltra</a>
+sells. Usually available in black or white. These keycaps are Choc spaced.</p>
+<p>You can also get versions with legend or dyed into different colours.</p>
+<p>The linked 3D print files aren&rsquo;t the original files. They are rendering
+made by darryldh with permission from Max Burger.</p>
+<h2 id="chocfox-cfxhttpschosfoxcomproductschocfox-cfx-choc-keycaps"><a href="https://chosfox.com/products/chocfox-cfx-choc-keycaps">Chocfox CFX</a></h2>
+<p>Ergo version of MBK? The edges feel less sharp. There are no convex 1U
+version for thumb keys.</p>
+<h2 id="ldsa-low-profile-keycapshttpslowprokbcaproductsldsa-low-profile-blank-keycaps"><a href="https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps">LDSA Low Profile Keycaps</a></h2>
+<p>These have smooth DSA profile and molded out of PBT plastic. The best thing about these
+keycaps is the 1U convex thumb keys. These keycaps are Choc spaced.</p>
+<p>KBD news has an <a href="https://kbd.news/LDSA-keycap-profile-1377.html">article</a> about it.</p>
+<h2 id="asymplex-chicago-stenogprapherhttpswwwasymplexxyzproductcs-chicago-stenographer-profile"><a href="https://www.asymplex.xyz/product/cs-chicago-stenographer-profile">Asymplex Chicago Stenogprapher</a></h2>
+<p>These are my favourite keycaps. I love the feel of these keycaps. These are made to order
+and comparatively expensive. They are made of porcelain cold cast resin and available in
+many different colors. They also have convex keycaps for thumbs.</p>
+<p>If you want to 3D print, the design is available at <a href="https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps">https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps</a>
+The source for these files is at <a href="https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles">https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles</a>
+The repo also contains files ready for 3D print services at <a href="https://github.com/sporkus/PseudoMakeMeKeyCapProfiles/tree/master/stl/Choc">https://github.com/sporkus/PseudoMakeMeKeyCapProfiles/tree/master/stl/Choc</a></p>
+<p>Dan Schutzner, <a href="https://www.thingiverse.com/shoggot/designs">shoggot</a> has a remix of this
+design at <a href="https://www.thingiverse.com/thing:4862025">CSL-tall Choc Keycaps</a>. If you want
+to get this printed with 3D printing service consider using these files from Majyk Oyster
+<a href="https://www.printables.com/model/418231-csl-tall-choc-keycaps-grappe-edition">CSL-tall Choc Keycaps - grappe edition </a></p>
+<h2 id="asymplex-made-to-order-choc-deshttpswwwasymplexxyzproductmade-to-order-des-choc"><a href="https://www.asymplex.xyz/product/made-to-order-des_choc">Asymplex Made-to-order Choc DES</a></h2>
+<p>Porcelian cold cast caps with MX spaced (19mm x 19mm). I haven&rsquo;t used these, but if
+these are anything like Chicago Stenographer, I would love to used these for MX spaced
+keyboards.</p>
+<p>If you want to 3D print these at 3D print service, you can use the STL files available
+at <a href="https://github.com/AlaaSaadAbdo/DES-spru">https://github.com/AlaaSaadAbdo/DES-spru</a> Remember, the Choc version have MX spacing.
+You can also get print service ready files at <a href="https://github.com/grassfedreeve/PseudoMakeMeKeyCapProfiles/tree/master/STLS">https://github.com/grassfedreeve/PseudoMakeMeKeyCapProfiles/tree/master/STLS</a></p>
+<h2 id="wrk-series-from-worklouderhttpsworkloudercckeycaps"><a href="https://worklouder.cc/keycaps/">wrk. series from worklouder</a></h2>
+<p>This is a whole series of black keycaps. These Choc v1 keycaps have MX spacing so are
+larger 19mm x 19mm squares. There are often special editions that aren&rsquo;t black. Would work
+nicely with MX spaced Choc keyboards like Corne. However, they don&rsquo;t have convex 1U
+keycaps.</p>
+<h2 id="kailh-keycaphttpswwwamazoncomkeycap-switch-profile-keyboard-keycapsdpb0bcv9mn56th1"><a href="https://www.amazon.com/Keycap-Switch-Profile-Keyboard-keycaps/dp/B0BCV9MN56?th=1">Kailh Keycap</a></h2>
+<p>Flat, 2mm keycaps with legend. Never used this.</p>
+<h2 id="gravityhttpsshopdailycraftjpenproductsgravity-keycapsvariant39972208509125"><a href="https://shop.dailycraft.jp/en/products/gravity_keycaps?variant=39972208509125">Gravity</a></h2>
+<p>I have been interested in these keycaps, but never tried them. They are usually out of stock when I check.
+These are 3D printed resin keycaps.</p>
+<h1 id="choc-v1-keycaps-to-3d-print">Choc v1 Keycaps to 3D print</h1>
+<p>There are a series of keycaps designed by Dan Schutzner, <a href="https://www.thingiverse.com/shoggot/designs">shoggot</a>.
+Most of his designs target 3 rows keyboards. This is perfecf for someone like me who like all
+keys to be 1 distance from home (#1dfh).</p>
+<p>I recommend joining a whole set of keycaps for each row together to print 10 keycaps
+at once. This way the whole set is like $3 instead of each keycap costing you $1.</p>
+<h2 id="chicago-deep-dishhttpswwwthingiversecomthing4896661"><a href="https://www.thingiverse.com/thing:4896661">Chicago Deep Dish</a></h2>
+<p>Haven&rsquo;t used these. Was interested in these before I saw SQDG.</p>
+<h2 id="cylindrical-minimal-y-cmyhttpsgithubcomsadekbaroudifingerpunchblobmasterkeycapscmyreadmemd"><a href="https://github.com/sadekbaroudi/fingerpunch/blob/master/keycaps/CMY/README.md">Cylindrical Minimal Y, CMY</a></h2>
+<p>Keycaps with standard width (x) but only 15.4mm height (y). Supports MX, Choc v1,
+KS-27 and KS-33 switches. Has 5 degree and 12 degree vertical tilt. The keycap has
+files ready for 3D printing services.</p>
+<h2 id="dcjshttpswwwthingiversecomthing5163221"><a href="https://www.thingiverse.com/thing:5163221">DCJS</a></h2>
+<p>I have printed these keycaps using the 3D printing service from JLCPCB. I have printed
+them in both Resin and Nylon. The whole set printed in SLA (Resin) was less than $10.
+For the price these are definitely the best. While Asymblex Chicago Stenographer are
+my favorite, those are more than 12 times more expensive compared to these.</p>
+<p>If you are planning to use a 3D print service like JLCPCB it is better to use a set of
+10 keycaps instead of individual keycaps. You can use the 3D files from
+<a href="https://github.com/valdar/DCJSx10">valdar</a> for this. On inspection JLCPCB will raise
+an issue about thin walls for some of the keycaps. I printed extras to be safe. Most
+of the time they work fine. I have once had some prints not work because they were too thin.</p>
+<h2 id="klp-lamhttpsgithubcombraindefenderklp-lame-keycaps"><a href="https://github.com/braindefender/KLP-Lame-Keycaps/">KLP Lamé</a></h2>
+<p>This is from the designer of Värdera, Nikita Shirokov aka <code>braindefender</code>.
+It comes in six different variants.</p>
+<h2 id="olshttpsgithubcomdeltawhyols"><a href="https://github.com/DeltaWhy/ols">OLS</a></h2>
+<p>OLP is inspired by LDSA and <a href="https://github.com/cubiq/OPK">OPK</a>, and has spherical top
+key cap. Unlike LDSA, it has raised R2 and R4 key caps. It is designed using CadQuery.</p>
+<p>There are files ready for 3D printing services at <a href="https://github.com/DeltaWhy/ols/tree/main/generated/sprue">generated/sprue</a>
+folder. There are versions for MX, Choc with Choc spacing (Choc-small) and Choc
+with MX spacing (Choc-large).</p>
+<h2 id="sqdghttpswwwthingiversecomthing5198643"><a href="https://www.thingiverse.com/thing:5198643">SQDG</a></h2>
+<p>Would love to try these. Planning to print these and try them out.
+<a href="https://github.com/crides/sqdg">Crides</a> has a tweaked
+version of this keycap in CadQuery.</p>
+<p>I used the chocmini-whole.step from crides/sqdg Github repo to print a set
+of keycaps at <a href="https://jlcpcb.com/">JLCPCB</a>. The whole 36 keycaps set cost
+around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
+cost $10.00.</p>
+<h2 id="vrdera-kailh-choc-keycapshttpsgithubcombraindefendervardera-kailh-choc-keycaps"><a href="https://github.com/braindefender/vardera-kailh-choc-keycaps">Värdera Kailh Choc Keycaps</a></h2>
+<p>Another nice looking one that I would like to try. Looks like a lower profile
+version of LDSA.</p>
+<h2 id="yeethttpswwwthingiversecomthing4903358"><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
+<p>Another sculpted keycap from shoggot. There are options for both Choc and MX
+with either Choc or MX spacing when printing Choc keycaps.</p>
+<h1 id="using-mx-keycaps-with-choc-v1-switches">Using MX Keycaps with Choc v1 Switches</h1>
+<p>A possible option is to use a Choc to MX adapter and use MX keycaps. Once
+such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Direct Adapter by Dodger X</a>.</p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/ml-like-languages/</id>
@@ -87,127 +210,6 @@
 interesting how it separates platforms and applications. Could we have a platform
 that targets microcontrollers?</li>
 </ul>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/keycaps/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">Keycaps</title>
-  <published>2023-11-06T00:00:00Z</published>
-  <updated>2023-11-06T00:00:00Z</updated>
-  
-  <category term="keyboard"></category>
-  
-  <category term="keycap"></category>
-  
-  <category term="mechanical-keyboard"></category>
-  
-  <category term="3d-print"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/keycaps/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<p>List of custom keycaps for low profile  mechanical keyboards
-using Kailh Choc V1 switches, PG1350, and Choc Mini switches,
-PG1232.</p>
-<p>Most of the keycaps in this list are 3D printed. The keycap set
-works best with keyboards that have 3 rows are either ortholinear
-or column staggered.</p>
-<h1 id="available-to-purchase-choc-v1-keycaps">Available to Purchase Choc v1 Keycaps</h1>
-<h2 id="mbk-choc-low-profile-keycapshttpswwwthingiversecomthing4564253"><a href="https://www.thingiverse.com/thing:4564253">MBK Choc Low Profile Keycaps</a></h2>
-<p>These are keycaps designed by Max Burger. This used to be my default choice
-since it is available from multiple vendors. Needs a convex 1U design
-for thumbs. All convex designs are larger than 1U. I haven&rsquo;t tried the 1U
-convex that <a href="https://mkultra.click/mbk-convex-pom-choc-keycaps/">MKUltra</a>
-sells. Usually available in black or white. These keycaps are Choc spaced.</p>
-<p>You can also get versions with legend or dyed into different colours.</p>
-<p>The linked 3D print files aren&rsquo;t the original files. They are rendering
-made by darryldh with permission from Max Burger.</p>
-<h2 id="chocfox-cfxhttpschosfoxcomproductschocfox-cfx-choc-keycaps"><a href="https://chosfox.com/products/chocfox-cfx-choc-keycaps">Chocfox CFX</a></h2>
-<p>Ergo version of MBK? The edges feel less sharp. There are no convex 1U
-version for thumb keys.</p>
-<h2 id="ldsa-low-profile-keycapshttpslowprokbcaproductsldsa-low-profile-blank-keycaps"><a href="https://lowprokb.ca/products/ldsa-low-profile-blank-keycaps">LDSA Low Profile Keycaps</a></h2>
-<p>These have smooth DSA profile and molded out of PBT plastic. The best thing about these
-keycaps is the 1U convex thumb keys. These keycaps are Choc spaced.</p>
-<p>KBD news has an <a href="https://kbd.news/LDSA-keycap-profile-1377.html">article</a> about it.</p>
-<h2 id="asymplex-chicago-stenogprapherhttpswwwasymplexxyzproductcs-chicago-stenographer-profile"><a href="https://www.asymplex.xyz/product/cs-chicago-stenographer-profile">Asymplex Chicago Stenogprapher</a></h2>
-<p>These are my favourite keycaps. I love the feel of these keycaps. These are made to order
-and comparatively expensive. They are made of porcelain cold cast resin and available in
-many different colors. They also have convex keycaps for thumbs.</p>
-<p>If you want to 3D print, the design is available at <a href="https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps">https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps</a>
-The source for these files is at <a href="https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles">https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles</a></p>
-<p>Dan Schutzner, <a href="https://www.thingiverse.com/shoggot/designs">shoggot</a> has a remix of this
-design at <a href="https://www.thingiverse.com/thing:4862025">CSL-tall Choc Keycaps</a>. If you want
-to get this printed with 3D printing service consider using these files from Majyk Oyster
-<a href="https://www.printables.com/model/418231-csl-tall-choc-keycaps-grappe-edition">CSL-tall Choc Keycaps - grappe edition </a></p>
-<h2 id="asymplex-made-to-order-choc-deshttpswwwasymplexxyzproductmade-to-order-des-choc"><a href="https://www.asymplex.xyz/product/made-to-order-des_choc">Asymplex Made-to-order Choc DES</a></h2>
-<p>Porcelian cold cast caps with MX spaced (19mm x 19mm). I haven&rsquo;t used these, but if
-these are anything like Chicago Stenographer, I would love to used these for MX spaced
-keyboards.</p>
-<p>If you want to 3D print these at 3D print service, you can use the STL files available
-at <a href="https://github.com/AlaaSaadAbdo/DES-spru">https://github.com/AlaaSaadAbdo/DES-spru</a> Remember, the Choc version have MX spacing.</p>
-<h2 id="wrk-series-from-worklouderhttpsworkloudercckeycaps"><a href="https://worklouder.cc/keycaps/">wrk. series from worklouder</a></h2>
-<p>This is a whole series of black keycaps. These Choc v1 keycaps have MX spacing so are
-larger 19mm x 19mm squares. There are often special editions that aren&rsquo;t black. Would work
-nicely with MX spaced Choc keyboards like Corne. However, they don&rsquo;t have convex 1U
-keycaps.</p>
-<h2 id="kailh-keycaphttpswwwamazoncomkeycap-switch-profile-keyboard-keycapsdpb0bcv9mn56th1"><a href="https://www.amazon.com/Keycap-Switch-Profile-Keyboard-keycaps/dp/B0BCV9MN56?th=1">Kailh Keycap</a></h2>
-<p>Flat, 2mm keycaps with legend. Never used this.</p>
-<h2 id="gravityhttpsshopdailycraftjpenproductsgravity-keycapsvariant39972208509125"><a href="https://shop.dailycraft.jp/en/products/gravity_keycaps?variant=39972208509125">Gravity</a></h2>
-<p>I have been interested in these keycaps, but never tried them. They are usually out of stock when I check.
-These are 3D printed resin keycaps.</p>
-<h1 id="choc-v1-keycaps-to-3d-print">Choc v1 Keycaps to 3D print</h1>
-<p>There are a series of keycaps designed by Dan Schutzner, <a href="https://www.thingiverse.com/shoggot/designs">shoggot</a>.
-Most of his designs target 3 rows keyboards. This is perfecf for someone like me who like all
-keys to be 1 distance from home (#1dfh).</p>
-<p>I recommend joining a whole set of keycaps for each row together to print 10 keycaps
-at once. This way the whole set is like $3 instead of each keycap costing you $1.</p>
-<h2 id="chicago-deep-dishhttpswwwthingiversecomthing4896661"><a href="https://www.thingiverse.com/thing:4896661">Chicago Deep Dish</a></h2>
-<p>Haven&rsquo;t used these. Was interested in these before I saw SQDG.</p>
-<h2 id="cylindrical-minimal-y-cmyhttpsgithubcomsadekbaroudifingerpunchblobmasterkeycapscmyreadmemd"><a href="https://github.com/sadekbaroudi/fingerpunch/blob/master/keycaps/CMY/README.md">Cylindrical Minimal Y, CMY</a></h2>
-<p>Keycaps with standard width (x) but only 15.4mm height (y). Supports MX, Choc v1,
-KS-27 and KS-33 switches. Has 5 degree and 12 degree vertical tilt. The keycap has
-files ready for 3D printing services.</p>
-<h2 id="dcjshttpswwwthingiversecomthing5163221"><a href="https://www.thingiverse.com/thing:5163221">DCJS</a></h2>
-<p>I have printed these keycaps using the 3D printing service from JLCPCB. I have printed
-them in both Resin and Nylon. The whole set printed in SLA (Resin) was less than $10.
-For the price these are definitely the best. While Asymblex Chicago Stenographer are
-my favorite, those are more than 12 times more expensive compared to these.</p>
-<p>If you are planning to use a 3D print service like JLCPCB it is better to use a set of
-10 keycaps instead of individual keycaps. You can use the 3D files from
-<a href="https://github.com/valdar/DCJSx10">valdar</a> for this. On inspection JLCPCB will raise
-an issue about thin walls for some of the keycaps. I printed extras to be safe. Most
-of the time they work fine. I have once had some prints not work because they were too thin.</p>
-<h2 id="klp-lamhttpsgithubcombraindefenderklp-lame-keycaps"><a href="https://github.com/braindefender/KLP-Lame-Keycaps/">KLP Lamé</a></h2>
-<p>This is from the designer of Värdera, Nikita Shirokov aka <code>braindefender</code>.
-It comes in six different variants.</p>
-<h2 id="olshttpsgithubcomdeltawhyols"><a href="https://github.com/DeltaWhy/ols">OLS</a></h2>
-<p>OLP is inspired by LDSA and <a href="https://github.com/cubiq/OPK">OPK</a>, and has spherical top
-key cap. Unlike LDSA, it has raised R2 and R4 key caps. It is designed using CadQuery.</p>
-<p>There are files ready for 3D printing services at <a href="https://github.com/DeltaWhy/ols/tree/main/generated/sprue">generated/sprue</a>
-folder. There are versions for MX, Choc with Choc spacing (Choc-small) and Choc
-with MX spacing (Choc-large).</p>
-<h2 id="sqdghttpswwwthingiversecomthing5198643"><a href="https://www.thingiverse.com/thing:5198643">SQDG</a></h2>
-<p>Would love to try these. Planning to print these and try them out.
-<a href="https://github.com/crides/sqdg">Crides</a> has a tweaked
-version of this keycap in CadQuery.</p>
-<p>I used the chocmini-whole.step from crides/sqdg Github repo to print a set
-of keycaps at <a href="https://jlcpcb.com/">JLCPCB</a>. The whole 36 keycaps set cost
-around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
-cost $10.00.</p>
-<h2 id="vrdera-kailh-choc-keycapshttpsgithubcombraindefendervardera-kailh-choc-keycaps"><a href="https://github.com/braindefender/vardera-kailh-choc-keycaps">Värdera Kailh Choc Keycaps</a></h2>
-<p>Another nice looking one that I would like to try. Looks like a lower profile
-version of LDSA.</p>
-<h2 id="yeethttpswwwthingiversecomthing4903358"><a href="https://www.thingiverse.com/thing:4903358">Yeet</a></h2>
-<p>Another sculpted keycap from shoggot. There are options for both Choc and MX
-with either Choc or MX spacing when printing Choc keycaps.</p>
-<h1 id="using-mx-keycaps-with-choc-v1-switches">Using MX Keycaps with Choc v1 Switches</h1>
-<p>A possible option is to use a Choc to MX adapter and use MX keycaps. Once
-such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Direct Adapter by Dodger X</a>.</p>
 
 
   ]]></content>
