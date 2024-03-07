@@ -1,6 +1,6 @@
 title: Keycaps
 created: Feb 22, 2023
-date: 2023-12-19
+date: 2024-03-07
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -104,7 +104,13 @@ of the time they work fine. I have once had some prints not work because they we
 
 ## [KLP Lamé](https://github.com/braindefender/KLP-Lame-Keycaps/)
 This is from the designer of Värdera, Nikita Shirokov aka `braindefender`.
-It comes in six different variants.
+It comes in six different variants. I love the saddle titled and use it for some
+of my keyboards. 
+
+## [LPX](https://github.com/levpopov/LPX)
+Compact low profile keycap optimized for FDM printing. Has fantastic printing
+guild for FDM printers. The 3D printing guide is great for printing other 
+keycaps too.
 
 ## [OLS](https://github.com/DeltaWhy/ols)
 OLP is inspired by LDSA and [OPK](https://github.com/cubiq/OPK), and has spherical top

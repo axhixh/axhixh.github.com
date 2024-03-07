@@ -3,7 +3,7 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2023-12-19T00:00:00Z</updated>
+  <updated>2024-03-07T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
@@ -14,8 +14,8 @@
   <id>pages/keycaps/</id>
   <author><name>Ashish Shrestha</name></author>
   <title type="html">Keycaps</title>
-  <published>2023-12-19T00:00:00Z</published>
-  <updated>2023-12-19T00:00:00Z</updated>
+  <published>2024-03-07T00:00:00Z</published>
+  <updated>2024-03-07T00:00:00Z</updated>
   
   <category term="keyboard"></category>
   
@@ -104,7 +104,12 @@ an issue about thin walls for some of the keycaps. I printed extras to be safe. 
 of the time they work fine. I have once had some prints not work because they were too thin.</p>
 <h2 id="klp-lamhttpsgithubcombraindefenderklp-lame-keycaps"><a href="https://github.com/braindefender/KLP-Lame-Keycaps/">KLP Lamé</a></h2>
 <p>This is from the designer of Värdera, Nikita Shirokov aka <code>braindefender</code>.
-It comes in six different variants.</p>
+It comes in six different variants. I love the saddle titled and use it for some
+of my keyboards.</p>
+<h2 id="lpxhttpsgithubcomlevpopovlpx"><a href="https://github.com/levpopov/LPX">LPX</a></h2>
+<p>Compact low profile keycap optimized for FDM printing. Has fantastic printing
+guild for FDM printers. The 3D printing guide is great for printing other
+keycaps too.</p>
 <h2 id="olshttpsgithubcomdeltawhyols"><a href="https://github.com/DeltaWhy/ols">OLS</a></h2>
 <p>OLP is inspired by LDSA and <a href="https://github.com/cubiq/OPK">OPK</a>, and has spherical top
 key cap. Unlike LDSA, it has raised R2 and R4 key caps. It is designed using CadQuery.</p>
