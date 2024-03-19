@@ -1,6 +1,6 @@
 title: Keycaps
 created: Feb 22, 2023
-date: 2024-03-07
+date: 2024-03-18
 tags: keyboard, keycap, mechanical-keyboard, 3d-print 
 ----
 
@@ -44,6 +44,13 @@ many different colors. They also have convex keycaps for thumbs.
 If you want to 3D print, the design is available at https://www.printables.com/model/158865-chicago-steno-low-profile-ergo-keycaps
 The source for these files is at https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles
 The repo also contains files ready for 3D print services at https://github.com/sporkus/PseudoMakeMeKeyCapProfiles/tree/master/stl/Choc
+[infused-kim](https://github.com/infused-kim/kb_keycaps_chicago_stenographer)'s
+of *sporkus's* repository has print ready files optimized for 5x3 keyboards.
+
+Similarly, [rschenk](https://github.com/rschenk/cfx_chicago_stenographer)'s
+fork changes the size of the keycaps to be Chocfox CFX (16.5mm) compatible.
+He uses this smaller keycap for his Hummingbird compatible keyboard, 
+[tern](https://github.com/rschenk/tern).
 
 Dan Schutzner, [shoggot](https://www.thingiverse.com/shoggot/designs) has a remix of this
 design at [CSL-tall Choc Keycaps](https://www.thingiverse.com/thing:4862025). If you want
