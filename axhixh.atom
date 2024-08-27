@@ -3,12 +3,51 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2024-08-24T00:00:00Z</updated>
+  <updated>2024-08-27T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/git-clients/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Git Clients</title>
+  <published>2024-08-27T00:00:00Z</published>
+  <updated>2024-08-27T00:00:00Z</updated>
+  
+  <category term="git"></category>
+  
+  <category term="source-control"></category>
+  
+  <category term="applications"></category>
+  
+  <category term="tools"></category>
+  
+  <category term="github"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/git-clients/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>Clients I have used for interacting with <code>git</code> when I need something more than the command line interface or the built-in UI <code>git gui</code>.</p>
+<h1 id="sourcetreehttpswwwsourcetreeappcom"><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
+<p>First git GUI I used. I used it for a long time because I am familiar with it. You need to get an Atlassian account to use it.</p>
+<h1 id="forkhttpsgit-forkcom"><a href="https://git-fork.com/">Fork</a></h1>
+<p>Nice git GUI. Find it faster than SourceTree. Don&rsquo;t need to create any sort of accounts. Having built-in image diff is nice.</p>
+<h1 id="tighttpsjonasgithubiotig"><a href="https://jonas.github.io/tig/">Tig</a></h1>
+<p>Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias <code>alias incoming='tig ..origin/master'</code> to explore incoming git changes. I frequently use it to explore when I am in the terminal.</p>
+<h1 id="lazy-githttpsgithubcomjesseduffieldlazygit"><a href="https://github.com/jesseduffield/lazygit">Lazy Git</a></h1>
+<p>Text-mode interface for use in a terminal. Comparatively complete UI.</p>
+<h1 id="gitbutlerhttpsgitbutlercom"><a href="https://gitbutler.com">GitButler</a></h1>
+<p>Currently, this is my go to client and I rarely use the CLI. I now use its workflow and virtual
+branches. It allows me to apply/unapply multiple branches and create pull requests with subset
+of changes as necessary.</p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/programming-fonts/</id>
@@ -265,41 +304,6 @@ such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Dire
 interesting how it separates platforms and applications. Could we have a platform
 that targets microcontrollers?</li>
 </ul>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/git-clients/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">Git Clients</title>
-  <published>2023-01-28T00:00:00Z</published>
-  <updated>2023-01-28T00:00:00Z</updated>
-  
-  <category term="git"></category>
-  
-  <category term="source-control"></category>
-  
-  <category term="applications"></category>
-  
-  <category term="tools"></category>
-  
-  <category term="github"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/git-clients/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<p>Clients I have used for interacting with <code>git</code> when I need something more than the command line interface or the built-in UI <code>git gui</code>.</p>
-<h1 id="sourcetreehttpswwwsourcetreeappcom"><a href="https://www.sourcetreeapp.com/">SourceTree</a></h1>
-<p>First git GUI I used. I still use it because I am familiar with it. You need to get an Atlassian account to use it.</p>
-<h1 id="forkhttpsgit-forkcom"><a href="https://git-fork.com/">Fork</a></h1>
-<p>Nice git GUI. Find it faster than SourceTree. Don&rsquo;t need to create any sort of accounts. Having built-in image diff is nice.</p>
-<h1 id="tighttpsjonasgithubiotig"><a href="https://jonas.github.io/tig/">Tig</a></h1>
-<p>Even though it is a text-mode interface, it is nice to be able to scroll around to explore a git repository. I have a shell alias <code>alias incoming='tig ..origin/master'</code> to explore incoming git changes.</p>
-<h1 id="lazy-githttpsgithubcomjesseduffieldlazygit"><a href="https://github.com/jesseduffield/lazygit">Lazy Git</a></h1>
-<p>Text-mode interface for use in a terminal. Comparatively complete UI.</p>
 
 
   ]]></content>
