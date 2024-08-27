@@ -1,6 +1,6 @@
 title: Programming Fonts
-date: 2020-03-01 
-updated: 2024-08-24
+created: Mar 1, 2020 
+date: 2024-08-24
 tags: font, ligature, editor, terminal
 ----
 
