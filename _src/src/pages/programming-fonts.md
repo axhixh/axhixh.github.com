@@ -1,6 +1,6 @@
 title: Programming Fonts
 created: Mar 1, 2020
-date: 2024-08-24
+date: 2025-01-01
 tags: font, ligature, editor, terminal
 ----
 
@@ -33,3 +33,6 @@ OpenType font from Adobe. Has extra light version. Doesn't have ligatures. https
 
 ## Victor Mono
 Another clean, thin font. Has cursive italic style for informal looks. Currently my default because of how condensed and clean it is. https://rubjo.github.io/victor-mono/
+
+### Reference
+Check out [Nerd Fonts](https://www.nerdfonts.com/font-downloads) for more fonts. These have been patched to include a large number of glyphs for use in terminals, editors etc.
