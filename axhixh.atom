@@ -3,12 +3,71 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2025-01-01T00:00:00Z</updated>
+  <updated>2025-04-25T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/2025-languages/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Programming Languages for 2025</title>
+  <published>2025-04-25T00:00:00Z</published>
+  <updated>2025-04-25T00:00:00Z</updated>
+  
+  <category term="koka"></category>
+  
+  <category term="ocaml"></category>
+  
+  <category term="uiua"></category>
+  
+  <category term="roc"></category>
+  
+  <category term="gleam"></category>
+  
+  <category term="julia"></category>
+  
+  <category term="typst"></category>
+  
+  <category term="lua"></category>
+  
+  <category term="standardml"></category>
+  
+  <category term="kotlin"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/2025-languages/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<p>I enjoy exploring programming languages. This is a list of languages I hope to focus on during 2025 and languages I will not spend time on no matter how tempting they look.</p>
+<h1 id="languages-i-will-use">Languages I Will Use</h1>
+<h2 id="kotlinhttpskotlinlangorg"><a href="https://kotlinlang.org">Kotlin</a></h2>
+<p>It is my primary language at work. Use it to write backend code on the JVM. Makes coding for JVM acceptable.</p>
+<h2 id="standard-mlhttpssmlfamilygithubio"><a href="https://smlfamily.github.io">Standard ML</a></h2>
+<p>Will not start anything new, but complete my on-going projects and specially the interpreter/compiler I am writing for <a href="https://github.com/axhixh/monkey">Monkey in Standard ML</a>.</p>
+<h2 id="juliahttpsjulialangorg"><a href="https://julialang.org">Julia</a></h2>
+<p>Planning to use Julia for all my data analysis work. Pluto notebooks and rich statistics and visualization libraries make this a practical language. I don&rsquo;t know Julia so it is prefect execuse to learn. This is also a way to explore array languages.</p>
+<h2 id="luahttpswwwluaorg"><a href="https://www.lua.org/">Lua</a></h2>
+<p>Can&rsquo;t really avoid it since it used for configuring so many of the tools I use from my terminal, <a href="https://wezterm.org">WezTerm</a>, to <a href="https://typst.app">Typst</a> that I use for creating documents.</p>
+<h2 id="ocamlhttpsocamlorg"><a href="https://ocaml.org">OCaml</a></h2>
+<p>Planning to use OCaml as the primary language for my personal projects this year. Haven&rsquo;t built anything large with it. Hopefully, by making it my primary language I will use it for something more than one-offs.</p>
+<h1 id="languages-i-will-skip-for-2025">Languages I Will Skip (for 2025)</h1>
+<p>This are languages I find fun and interesting. I plan to avoid these for 2025 and not be distracted by them.</p>
+<h2 id="kokahttpskoka-langgithubiokokadocindexhtml"><a href="https://koka-lang.github.io/koka/doc/index.html">Koka</a></h2>
+<p>Ever since I found Koka, I have been fascinated by it. It is the language I have enjoyed writing code in the most. I would love to explore effect types and effect handlers.</p>
+<h2 id="rochttpsroc-langorg"><a href="https://roc-lang.org">Roc</a></h2>
+<p>On paper, this could be the language I would love to write in. I am fascinated by the idea of platforms. However, like Koka it isn&rsquo;t ready yet. Learning about this language is how I ended up with Koka and if both were ready, I think I would choose Koka over this.</p>
+<h2 id="gleamhttpsgleamrun"><a href="https://gleam.run">Gleam</a></h2>
+<p>This is the language I wanted to code in to explore Erlang ecosystem and BEAM, Erlang&rsquo;s virtual machine. It is similar to most ML languages and is production ready.</p>
+<h2 id="uiuahttpsuiuaorg"><a href="https://uiua.org">Uiua</a></h2>
+<p>It is an array programming language. I wanted to explore array languages. There are so many things I want to explore using this language - array programming, tacit programming using stack, combinatory logic and really see if combination of these with notation changes the way I think.</p>
+<p>I have done some advent of code exercises with it. Also want to compare it with <a href="https://mlochbaum.github.io/BQN/">BQN</a> which I found when I started exploring Uiua.</p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/programming-fonts/</id>
@@ -511,55 +570,6 @@ Imagine a Puritan church where the men sit on one side, the women on the other.<
 <p>A <code>RIGHT JOIN</code> is the same thing, except the men all leave and take the wives and leave the single women behind. It’s rude to do this, in a Puritan church and in your SQL.</p>
 <p>A <code>FULL OUTER JOIN</code> is a fire drill and everyone leaves, married couples together.</p>
 <p>And a <code>CROSS JOIN</code> is a swingers party and should never happen in a Puritan church nor your SQL.</p>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/20-cds-original-ipod/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">20 CDs Included with Original iPod</title>
-  <published>2019-06-14T00:00:00Z</published>
-  <updated>2019-06-14T00:00:00Z</updated>
-  
-  <category term="music"></category>
-  
-  <category term="apple"></category>
-  
-  <category term="ipod"></category>
-  
-  <category term="spotify"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/20-cds-original-ipod/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<p>A great way to sample different music genre. The list of 20 CDs included with original iPod. Listen with <a href="https://open.spotify.com/playlist/7D4SVuRHKnJ96Z7NtLWV6L?si=f2xsEcBkRs6heVqI-v5-AA">Spotify playlist</a></p>
-<p><a href="http://nobi.com/entry-1239.html">Article</a> about the 20 CDs and introduction of original iPod.</p>
-<h1 id="cd-list">CD List</h1>
-<ol>
-<li>Classic Yo-Yo by Yo-Yo Ma</li>
-<li>Mozart:Symphonies Nos. 35-41 by Karl Böhm</li>
-<li>Goldberg Variations by Glenn Gould</li>
-<li>Bridge Over Troubled Water by Simon &amp; Garfunkel</li>
-<li>Bookends by Simon &amp; Garfunkel</li>
-<li>The Bootleg Series, Vol. 4: Live 1966 - The &ldquo;Royal Albert Hall&rdquo; Concert by Bob Dylan</li>
-<li>A Hard Day&rsquo;s Night by The Beatles</li>
-<li>Abbey Road by The Beatles</li>
-<li>Live In Cook County Jail by B.B. King</li>
-<li>The Cole Porter Songbook, Vol 1 by Ella Fitzgerald</li>
-<li>Kind of Blue by Miles Davis</li>
-<li>Time Out by The Dave Brubeck Quartet</li>
-<li>Jagged Little Pill by Alanis Morissette</li>
-<li>Surfacing by Sarah McLachlan</li>
-<li>Never mind by Nirvana</li>
-<li>Legend by Bob Marley &amp; The Wailers</li>
-<li>Breathe by Faith Hill</li>
-<li>Crash by Dave Matthews Bandh</li>
-<li>Play &amp; Play: B Sides by Moby</li>
-<li>O Brother, Where Art Thou? (Music from the motion picture)</li>
-</ol>
 
 
   ]]></content>
