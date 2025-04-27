@@ -3,12 +3,67 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2025-04-25T00:00:00Z</updated>
+  <updated>2025-04-26T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/programming-fonts/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Programming Fonts</title>
+  <published>2025-04-26T00:00:00Z</published>
+  <updated>2025-04-26T00:00:00Z</updated>
+  
+  <category term="font"></category>
+  
+  <category term="ligature"></category>
+  
+  <category term="editor"></category>
+  
+  <category term="terminal"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/programming-fonts/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+<h1 id="list-of-fonts-for-programming">List of Fonts for Programming</h1>
+<p>Monospaced fonts for text editors, IDE, terminals and browser. I use monospaced font in my browser and override the ones from the website. Mostly free and some open source fonts. This list includes only fonts I have tried. I like thin, elongated monospace fonts.</p>
+<h2 id="commit-monohttpscommitmonocom"><a href="https://commitmono.com">Commit Mono</a></h2>
+<p>Used a customized version of this font. I find it quite clean. Replaced it with Martian Mono.</p>
+<h2 id="iosevkahttpstypeofnetiosevka"><a href="https://typeof.net/Iosevka/">Iosevka</a></h2>
+<p>Love using it for terminals and browser. I constantly switch between this and Victor Mono.</p>
+<h2 id="juliamonohttpsjuliamononetlifyapp"><a href="https://juliamono.netlify.app/">JuliaMono</a></h2>
+<p>Using with my editor because of the number of symbols or technical Unicode characters available. Find it close enough to Iosevka.</p>
+<h2 id="martian-monohttpsgithubcomevilmartiansmono"><a href="https://github.com/evilmartians/mono">Martian Mono</a></h2>
+<p>I love the readability of this font even when I use thin or extra light versions.</p>
+<h2 id="monofurhttpswwwdafontcommonofurfont"><a href="https://www.dafont.com/monofur.font">Monofur</a></h2>
+<p>This is different from what I usually like. However, I enjoy the rounded nature of this font.</p>
+<h2 id="monoidhttpslarsenworkcommonoid"><a href="https://larsenwork.com/monoid/">Monoid</a></h2>
+<p>Very sharp even at small size.</p>
+<h2 id="victor-monohttpsrubjogithubiovictor-mono"><a href="https://rubjo.github.io/victor-mono/">Victor Mono</a></h2>
+<p>Another clean, thin font. Has cursive italic style for informal looks. This is my default font because of how condensed and clean it is.</p>
+<h1 id="fonts-i-no-longer-use">Fonts I No Longer Use</h1>
+<h2 id="cascadia-code">Cascadia Code</h2>
+<p>Font programming ligatures from Microsoft. <a href="https://github.com/microsoft/cascadia-code">https://github.com/microsoft/cascadia-code</a></p>
+<h2 id="fira-code">Fira Code</h2>
+<p>My first font with ligatures. <a href="https://github.com/tonsky/FiraCode">https://github.com/tonsky/FiraCode</a> My default font till recently.</p>
+<h2 id="hasklig">Hasklig</h2>
+<p>Fork of Source Code Pro with programming ligatures. Ligature substitution wasn&rsquo;t as good as Fira Code. Ligature substituion changed, and added lots of new ligatures. <a href="https://github.com/i-tu/Hasklig">https://github.com/i-tu/Hasklig</a></p>
+<h2 id="jetbrains-mono">JetBrains Mono</h2>
+<p>Font from JetBrains <a href="https://www.jetbrains.com/lp/mono/">https://www.jetbrains.com/lp/mono/</a> Default font in JetBrains IDEs since 2020.1 versions. Find it too blocky compared to Fira Code.</p>
+<h2 id="source-code-pro">Source Code Pro</h2>
+<p>OpenType font from Adobe. Has extra light version. Doesn&rsquo;t have ligatures. <a href="https://adobe-fonts.github.io/source-code-pro/">https://adobe-fonts.github.io/source-code-pro/</a></p>
+<h2 id="uiua386-coloredhttpsgithubcomjonathanperretuiua386color"><a href="https://github.com/jonathanperret/uiua386color">Uiua386 Colored</a></h2>
+<p>Used it while I was playing with Uiua.</p>
+<h3 id="reference">Reference</h3>
+<p>Check out <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> for more fonts. These have been patched to include a large number of glyphs for use in terminals, editors etc.</p>
+
+
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/2025-languages/</id>
@@ -64,52 +119,6 @@
 <h2 id="uiuahttpsuiuaorg"><a href="https://uiua.org">Uiua</a></h2>
 <p>It is an array programming language. I wanted to explore array languages. There are so many things I want to explore using this language - array programming, tacit programming using stack, combinatory logic and really see if combination of these with notation changes the way I think.</p>
 <p>I have done some advent of code exercises with it. Also want to compare it with <a href="https://mlochbaum.github.io/BQN/">BQN</a> which I found when I started exploring Uiua.</p>
-
-
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/programming-fonts/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">Programming Fonts</title>
-  <published>2025-01-01T00:00:00Z</published>
-  <updated>2025-01-01T00:00:00Z</updated>
-  
-  <category term="font"></category>
-  
-  <category term="ligature"></category>
-  
-  <category term="editor"></category>
-  
-  <category term="terminal"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/programming-fonts/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-<h1 id="list-of-fonts-for-programming">List of Fonts for Programming</h1>
-<p>Monospaced fonts for text editors, IDE and terminals. Mostly free and some open source fonts. Only fonts I have tried.</p>
-<h2 id="cascadia-code">Cascadia Code</h2>
-<p>Font programming ligatures from Microsoft. <a href="https://github.com/microsoft/cascadia-code">https://github.com/microsoft/cascadia-code</a></p>
-<h2 id="commit-mono">Commit Mono</h2>
-<p>Used a customized version of this font. I find it quite clean. Replaced it with Martian Mono. <a href="https://commitmono.com">https://commitmono.com</a></p>
-<h2 id="fira-code">Fira Code</h2>
-<p>My first font with ligatures. <a href="https://github.com/tonsky/FiraCode">https://github.com/tonsky/FiraCode</a> My default font till recently.</p>
-<h2 id="hasklig">Hasklig</h2>
-<p>Fork of Source Code Pro with programming ligatures. Ligature substitution wasn&rsquo;t as good as Fira Code. Ligature substituion changed, and added lots of new ligatures. <a href="https://github.com/i-tu/Hasklig">https://github.com/i-tu/Hasklig</a></p>
-<h2 id="jetbrains-mono">JetBrains Mono</h2>
-<p>Font from JetBrains <a href="https://www.jetbrains.com/lp/mono/">https://www.jetbrains.com/lp/mono/</a> Default font in JetBrains IDEs since 2020.1 versions. Find it too blocky compared to Fira Code.</p>
-<h2 id="martian-mono">Martian Mono</h2>
-<p>I love the readability of this font even when I use thin or extra light versions. <a href="https://github.com/evilmartians/mono">https://github.com/evilmartians/mono</a></p>
-<h2 id="monoid">Monoid</h2>
-<p>Very sharp even at small size <a href="https://larsenwork.com/monoid/">https://larsenwork.com/monoid/</a></p>
-<h2 id="source-code-pro">Source Code Pro</h2>
-<p>OpenType font from Adobe. Has extra light version. Doesn&rsquo;t have ligatures. <a href="https://adobe-fonts.github.io/source-code-pro/">https://adobe-fonts.github.io/source-code-pro/</a></p>
-<h2 id="victor-mono">Victor Mono</h2>
-<p>Another clean, thin font. Has cursive italic style for informal looks. Currently my default because of how condensed and clean it is. <a href="https://rubjo.github.io/victor-mono/">https://rubjo.github.io/victor-mono/</a></p>
-<h3 id="reference">Reference</h3>
-<p>Check out <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> for more fonts. These have been patched to include a large number of glyphs for use in terminals, editors etc.</p>
 
 
   ]]></content>
