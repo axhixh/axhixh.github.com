@@ -1,6 +1,7 @@
 title: Programming Languages for 2025
-date: 2025-04-25
-tags: koka, ocaml, uiua, roc, gleam, julia, typst, lua, standardml, kotlin
+created: 2025-04-25
+date: 2025-06-25
+tags: koka, ocaml, uiua, roc, gleam, julia, typst, lua, standardml, kotlin, flix
 ----
 
 I enjoy exploring programming languages. This is a list of languages I hope to focus on during 2025 and languages I will not spend time on no matter how tempting they look.
@@ -34,6 +35,10 @@ This are languages I find fun and interesting. I plan to avoid these for 2025 an
 ## [Koka](https://koka-lang.github.io/koka/doc/index.html)
 
 Ever since I found Koka, I have been fascinated by it. It is the language I have enjoyed writing code in the most. I would love to explore effect types and effect handlers.
+
+## [Flix](https://flix.dev)
+
+I had seen Flix before, but wasn't excited with it since I didn't understand the value it brought. Since learning about effects and effect handlers with Koka, I find Flix interesting. It is certainly more mature than Koka and I can start building production ready software with it. It is on the JVM so has access to lots of libraries, but I am not excited because it is on the JVM.
 
 ## [Roc](https://roc-lang.org)
 
