@@ -137,6 +137,9 @@ of keycaps at [JLCPCB](https://jlcpcb.com/). The whole 36 keycaps set cost
 around $4.00 using SLA(Resin) printing and a set of 36 keycaps using SLS(Nylon)
 cost $10.00.
 
+## [Tilted Spherical Choc Keycaps](https://www.thingiverse.com/thing:5798225)
+A remix of spherical dish and Cherry tilt for Kailh Choc v1.
+
 ## [Värdera Kailh Choc Keycaps](https://github.com/braindefender/vardera-kailh-choc-keycaps)
 Another nice looking one that I would like to try. Looks like a lower profile
 version of LDSA.
