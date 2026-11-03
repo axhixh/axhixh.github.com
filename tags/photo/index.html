@@ -7,7 +7,7 @@
   <title>axhixh</title>
   <link rel="me" href="https://www.axhixh.com.np" />
   <link rel="me" href="https://github.com/axhixh/" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/site.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- open graph -->
   <meta property="og:title" content="photo" />
@@ -15,9 +15,7 @@
   <meta property="og:url" content="tags/photo/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body>
-<section class="section">
-<div class="container">
+<body data-theme="system"><main>
 
 <div class="tag is-large is-danger"> photo</div>
 <hr>
@@ -31,9 +29,7 @@
 </ul>
 
 
-</div>
-</section>
-<footer class="footer has-background-white">
+<footer class="footer">
   <div class="container">
     <div class="has-text-left">
       <p>
@@ -41,11 +37,10 @@
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
         <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
         <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
-        <a href="https://instagram.com/45h15h/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
       </p>
       <p xmlns:cc="http://creativecommons.org/ns#" >
         <a rel="cc:attributionURL" href="https://www.axhixh.com.np">This site</a>
-        &copy; 2014 - 2025 by <span property="cc:attributionName">Ashish Shrestha</span>
+        &copy; 2014 - 2026 by <span property="cc:attributionName">Ashish Shrestha</span>
         is licensed under
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
         target="_blank" rel="license noopener noreferrer" 
@@ -65,7 +60,29 @@
         </a>
       </p> 
     </div>
+      <div class="theme-select-wrapper">
+        <label for="theme-dropdown" class="meta-label">Theme:</label>
+        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
   </div>
 </footer>
-</body>
+ <!-- Inline Theme Switching Logic -->
+  <script>
+    function setTheme(mode) {
+      document.body.setAttribute('data-theme', mode);
+      localStorage.setItem('blog-theme', mode);
+      document.getElementById('theme-dropdown').value = mode;
+    }
+
+    // Apply stored theme setting on load
+    (function() {
+      const savedTheme = localStorage.getItem('blog-theme') || 'system';
+      setTheme(savedTheme);
+    })();
+  </script>
+</main></body>
 </html>

@@ -1,0 +1,265 @@
+/* Local Self-Hosted Font Definitions */
+ @font-face {
+     font-family: 'Maple Mono';
+     src: url('./fonts/maple-mono-regular.woff2') format('woff2');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+}
+ @font-face {
+     font-family: 'Maple Mono';
+     src: url('./fonts/maple-mono-italic.woff2') format('woff2');
+     font-weight: 400;
+     font-style: italic;
+     font-display: swap;
+}
+ @font-face {
+     font-family: 'Maple Mono';
+     src: url('./fonts/maple-mono-bold.woff2') format('woff2');
+     font-weight: 700;
+     font-style: normal;
+     font-display: swap;
+}
+ @font-face {
+     font-family: 'Maple Mono';
+     src: url('./fonts/MapleMono-BoldItalic.woff2') format('woff2');
+     font-weight: 700;
+     font-style: italic;
+     font-display: swap;
+}
+/* Theme Variables */
+ :root {
+     --font-mono: 'Maple Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
+    /* Light Theme (Cream Background, Black Text, Red Links) */
+     --bg-color: #f7f4eb;
+     --text-color: #1a1a1a;
+     --text-muted: #66635b;
+     --border-color: #e2ddd0;
+     --link-color: #d93829;
+     --link-hover: #b02518;
+     --code-bg: #eee9dc;
+     --quote-border: #d93829;
+     --tag-bg: #eae4d5;
+     --tag-hover: #ded6c3;
+}
+/* Dark Mode Theme */
+ [data-theme="dark"] {
+     --bg-color: #18181a;
+     --text-color: #e5e3dc;
+     --text-muted: #99968d;
+     --border-color: #2e2e32;
+     --link-color: #ff5c4d;
+     --link-hover: #ff8578;
+     --code-bg: #222225;
+     --quote-border: #ff5c4d;
+     --tag-bg: #27272b;
+     --tag-hover: #333338;
+}
+/* System Preferred Dark Mode (when mode is set to system) */
+ @media (prefers-color-scheme: dark) {
+     [data-theme="system"] {
+         --bg-color: #18181a;
+         --text-color: #e5e3dc;
+         --text-muted: #99968d;
+         --border-color: #2e2e32;
+         --link-color: #ff5c4d;
+         --link-hover: #ff8578;
+         --code-bg: #222225;
+         --quote-border: #ff5c4d;
+         --tag-bg: #27272b;
+         --tag-hover: #333338;
+    }
+}
+/* Base Reset & Global Styles */
+ *, *::before, *::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+ html {
+     background-color: var(--bg-color);
+     color: var(--text-color);
+     font-family: var(--font-mono);
+     font-size: 16px;
+     line-height: 1.7;
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+     transition: background-color 0.2s ease, color 0.2s ease;
+}
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     padding: 3rem 1.5rem 2rem;
+     max-width: 680px;
+     margin: 0 auto;
+}
+ main {
+     flex: 1;
+     width: 100%;
+}
+/* Article & Typography */
+ .article-header {
+     margin-bottom: 2.5rem;
+}
+ h1.article-title {
+     font-size: 2.1rem;
+     font-weight: 700;
+     line-height: 1.25;
+     letter-spacing: -0.02em;
+     color: var(--text-color);
+}
+ .article-body {
+     font-size: 1rem;
+}
+ .article-body p {
+     margin-bottom: 1.5rem;
+}
+ .article-body h2 {
+     font-size: 1.4rem;
+     margin: 2.2rem 0 1rem;
+     line-height: 1.3;
+     border-bottom: 1px dashed var(--border-color);
+     padding-bottom: 0.4rem;
+}
+ .article-body h3 {
+     font-size: 1.15rem;
+     margin: 1.8rem 0 0.8rem;
+}
+/* All Links set to Red */
+ a {
+     color: var(--link-color);
+     text-decoration: underline;
+     text-underline-offset: 3px;
+     text-decoration-thickness: 1px;
+     transition: color 0.15s ease;
+}
+ a:hover {
+     color: var(--link-hover);
+}
+ ul, ol {
+     margin: 0 0 1.5rem 1.5rem;
+}
+ li {
+     margin-bottom: 0.4rem;
+}
+ blockquote {
+     border-left: 3px solid var(--quote-border);
+     padding-left: 1rem;
+     margin: 1.5rem 0;
+     color: var(--text-muted);
+     font-style: italic;
+}
+ code {
+     font-family: var(--font-mono);
+     background-color: var(--code-bg);
+     padding: 0.2em 0.4em;
+     border-radius: 3px;
+     font-size: 0.9em;
+}
+ pre {
+     background-color: var(--code-bg);
+     padding: 1rem;
+     border-radius: 4px;
+     overflow-x: auto;
+     margin: 1.5rem 0;
+     border: 1px solid var(--border-color);
+}
+ pre code {
+     background: none;
+     padding: 0;
+}
+ hr {
+     border: none;
+     border-top: 1px solid var(--border-color);
+     margin: 3rem 0 2rem;
+}
+/* Article Metadata (Bottom of Post) */
+ .article-meta {
+     font-size: 0.875rem;
+     color: var(--text-muted);
+     display: flex;
+     flex-direction: column;
+     gap: 1.25rem;
+}
+ .meta-dates {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1.5rem;
+}
+ .meta-item {
+     display: flex;
+     align-items: center;
+     gap: 0.4rem;
+}
+ .meta-label {
+     text-transform: uppercase;
+     font-size: 0.75rem;
+     letter-spacing: 0.05em;
+     opacity: 0.8;
+}
+ .meta-tags {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 0.5rem;
+}
+ .tag {
+     background-color: var(--tag-bg);
+     color: var(--text-color);
+     text-decoration: none;
+     padding: 0.2rem 0.6rem;
+     border-radius: 3px;
+     font-size: 0.8rem;
+     transition: background-color 0.15s ease;
+}
+ .tag:hover {
+     background-color: var(--tag-hover);
+     color: var(--text-color);
+}
+/* Footer & Theme Selector */
+ footer {
+     margin-top: 4rem;
+     padding-top: 1.5rem;
+     border-top: 1px solid var(--border-color);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     gap: 1rem;
+     font-size: 0.875rem;
+}
+ .footer-nav {
+     display: flex;
+     align-items: center;
+     gap: 1.25rem;
+}
+ .footer-right {
+     display: flex;
+     align-items: center;
+     gap: 1.25rem;
+}
+ .copyright {
+     color: var(--text-muted);
+}
+/* Theme Select Dropdown */
+ .theme-select-wrapper {
+     display: flex;
+     align-items: center;
+     gap: 0.4rem;
+}
+ .theme-select {
+     background-color: var(--code-bg);
+     color: var(--text-color);
+     border: 1px solid var(--border-color);
+     font-family: var(--font-mono);
+     font-size: 0.8rem;
+     padding: 0.2rem 0.4rem;
+     border-radius: 3px;
+     cursor: pointer;
+     outline: none;
+}
+ .theme-select:focus {
+     border-color: var(--link-color);
+}
+ 

@@ -7,7 +7,7 @@
   <title>axhixh</title>
   <link rel="me" href="https://www.axhixh.com.np" />
   <link rel="me" href="https://github.com/axhixh/" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/site.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- open graph -->
   <meta property="og:title" content="Origin" />
@@ -15,27 +15,14 @@
   <meta property="og:url" content="pages/origin/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body>
-<section class="section">
-<div class="container">
+<body data-theme="system"><main>
 
 
-<h1 class="title is-2">Origin</h1>
-<h2 class="subtitle has-text-grey">
-
-
-<time datetime="2014-02-17T00:00:00Z">Feb 17, 2014</time>
-
-
-</h2>
-<div class="tags">
-<a href="/tags/clojure/"><span class="tag has-text-danger-dark has-background-danger-light">clojure</span></a>&nbsp;
-
-<a href="/tags/github/"><span class="tag has-text-danger-dark has-background-danger-light">github</span></a>&nbsp;
-
-<a href="/tags/sheevaplug/"><span class="tag has-text-danger-dark has-background-danger-light">sheevaplug</span></a>&nbsp;
-</div>
-<div class='content'>
+<article>
+<header class="article-header">
+<h1 class="article-title">Origin</h1>
+</header>
+<div class='article-body'>
 <p>Over the years, I have hand code and used a basic script to generate
 my personal website. The last few years, I have used a <a href="http://github.com/axhixh/album">Clojure script</a>
 I wrote to create the photo albums. This worked well for me.</p>
@@ -45,11 +32,31 @@ use as a notebook and store links, lists and other random stuff.</p>
 <a href="http://pages.github.com/">Github Pages</a>. This means it is a static website.</p>
 
 </div> <!-- content -->
+<hr>
+<div class="article-meta"><div class="meta-dates">
 
+<div class="meta-item">
+  <span class="meta-labe">Published:</span>
+  
+<time datetime="2014-02-17T00:00:00Z">Feb 17, 2014</time>
 
 </div>
-</section>
-<footer class="footer has-background-white">
+
+</div></div>
+<div class="meta-tags">
+<span class="meta-label">Tags: </span>
+
+<a href="/tags/clojure/"><span class="tag">#clojure</span></a>&nbsp;
+
+<a href="/tags/github/"><span class="tag">#github</span></a>&nbsp;
+
+<a href="/tags/sheevaplug/"><span class="tag">#sheevaplug</span></a>&nbsp;
+
+</div>
+</article>
+
+
+<footer class="footer">
   <div class="container">
     <div class="has-text-left">
       <p>
@@ -57,11 +64,10 @@ use as a notebook and store links, lists and other random stuff.</p>
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
         <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
         <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
-        <a href="https://instagram.com/45h15h/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
       </p>
       <p xmlns:cc="http://creativecommons.org/ns#" >
         <a rel="cc:attributionURL" href="https://www.axhixh.com.np">This site</a>
-        &copy; 2014 - 2025 by <span property="cc:attributionName">Ashish Shrestha</span>
+        &copy; 2014 - 2026 by <span property="cc:attributionName">Ashish Shrestha</span>
         is licensed under
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
         target="_blank" rel="license noopener noreferrer" 
@@ -81,7 +87,29 @@ use as a notebook and store links, lists and other random stuff.</p>
         </a>
       </p> 
     </div>
+      <div class="theme-select-wrapper">
+        <label for="theme-dropdown" class="meta-label">Theme:</label>
+        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
   </div>
 </footer>
-</body>
+ <!-- Inline Theme Switching Logic -->
+  <script>
+    function setTheme(mode) {
+      document.body.setAttribute('data-theme', mode);
+      localStorage.setItem('blog-theme', mode);
+      document.getElementById('theme-dropdown').value = mode;
+    }
+
+    // Apply stored theme setting on load
+    (function() {
+      const savedTheme = localStorage.getItem('blog-theme') || 'system';
+      setTheme(savedTheme);
+    })();
+  </script>
+</main></body>
 </html>

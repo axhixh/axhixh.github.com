@@ -7,7 +7,7 @@
   <title>axhixh</title>
   <link rel="me" href="https://www.axhixh.com.np" />
   <link rel="me" href="https://github.com/axhixh/" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/site.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- open graph -->
   <meta property="og:title" content="Dithering" />
@@ -15,31 +15,14 @@
   <meta property="og:url" content="pages/dithering/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body>
-<section class="section">
-<div class="container">
+<body data-theme="system"><main>
 
 
-<h1 class="title is-2">Dithering</h1>
-<h2 class="subtitle has-text-grey">
-
-
-<time datetime="2020-07-02T00:00:00Z">Jul 02, 2020</time>
-
-
-</h2>
-<div class="tags">
-<a href="/tags/image-processing/"><span class="tag has-text-danger-dark has-background-danger-light">image-processing</span></a>&nbsp;
-
-<a href="/tags/algorithms/"><span class="tag has-text-danger-dark has-background-danger-light">algorithms</span></a>&nbsp;
-
-<a href="/tags/go/"><span class="tag has-text-danger-dark has-background-danger-light">go</span></a>&nbsp;
-
-<a href="/tags/website/"><span class="tag has-text-danger-dark has-background-danger-light">website</span></a>&nbsp;
-
-<a href="/tags/solar/"><span class="tag has-text-danger-dark has-background-danger-light">solar</span></a>&nbsp;
-</div>
-<div class='content'>
+<article>
+<header class="article-header">
+<h1 class="article-title">Dithering</h1>
+</header>
+<div class='article-body'>
 <p>While reading an article on making energy efficient website on <a href="https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website.html">Low ← Tech Magazine</a>, I noticed that they use dithering to reduce the size of the image. I reduce the number of colors in the palette when I digitize my notebooks. Reducing the number of colours for a photo makes it look bad due to banding; dithering helps. <a href="https://en.wikipedia.org/wiki/Dither">Wikipedia</a> defines dither as <em>an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images.</em></p>
 <p>The different dithering algorithms are all about the feedback process that diffuses the quantization error to neighbouring pixels. The different algorithms are documented at <a href="https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html">https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html</a></p>
 <p>There are also algorithms that introduce noise in an ordered manner instead of diffusing the error to overcome the banding. These are called ordered dithering. These have more speckling, but the algorithm is fast. In fact, Low ← Tech Magazine chose to use ordered Bayes to dither its images.</p>
@@ -47,11 +30,35 @@
 <p>To read more about designing websites for solar power or making them energy efficient checkout <a href="https://github.com/lowtechmag/solar/wiki/Solar-Web-Design">Solar Web Design</a></p>
 
 </div> <!-- content -->
+<hr>
+<div class="article-meta"><div class="meta-dates">
 
+<div class="meta-item">
+  <span class="meta-labe">Published:</span>
+  
+<time datetime="2020-07-02T00:00:00Z">Jul 02, 2020</time>
 
 </div>
-</section>
-<footer class="footer has-background-white">
+
+</div></div>
+<div class="meta-tags">
+<span class="meta-label">Tags: </span>
+
+<a href="/tags/image-processing/"><span class="tag">#image-processing</span></a>&nbsp;
+
+<a href="/tags/algorithms/"><span class="tag">#algorithms</span></a>&nbsp;
+
+<a href="/tags/go/"><span class="tag">#go</span></a>&nbsp;
+
+<a href="/tags/website/"><span class="tag">#website</span></a>&nbsp;
+
+<a href="/tags/solar/"><span class="tag">#solar</span></a>&nbsp;
+
+</div>
+</article>
+
+
+<footer class="footer">
   <div class="container">
     <div class="has-text-left">
       <p>
@@ -59,11 +66,10 @@
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
         <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
         <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
-        <a href="https://instagram.com/45h15h/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
       </p>
       <p xmlns:cc="http://creativecommons.org/ns#" >
         <a rel="cc:attributionURL" href="https://www.axhixh.com.np">This site</a>
-        &copy; 2014 - 2025 by <span property="cc:attributionName">Ashish Shrestha</span>
+        &copy; 2014 - 2026 by <span property="cc:attributionName">Ashish Shrestha</span>
         is licensed under
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
         target="_blank" rel="license noopener noreferrer" 
@@ -83,7 +89,29 @@
         </a>
       </p> 
     </div>
+      <div class="theme-select-wrapper">
+        <label for="theme-dropdown" class="meta-label">Theme:</label>
+        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
   </div>
 </footer>
-</body>
+ <!-- Inline Theme Switching Logic -->
+  <script>
+    function setTheme(mode) {
+      document.body.setAttribute('data-theme', mode);
+      localStorage.setItem('blog-theme', mode);
+      document.getElementById('theme-dropdown').value = mode;
+    }
+
+    // Apply stored theme setting on load
+    (function() {
+      const savedTheme = localStorage.getItem('blog-theme') || 'system';
+      setTheme(savedTheme);
+    })();
+  </script>
+</main></body>
 </html>

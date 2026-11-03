@@ -7,7 +7,7 @@
   <title>axhixh</title>
   <link rel="me" href="https://www.axhixh.com.np" />
   <link rel="me" href="https://github.com/axhixh/" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/site.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- open graph -->
   <meta property="og:title" content="Programming Fonts" />
@@ -15,29 +15,14 @@
   <meta property="og:url" content="pages/programming-fonts/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body>
-<section class="section">
-<div class="container">
+<body data-theme="system"><main>
 
 
-<h1 class="title is-2">Programming Fonts</h1>
-<h2 class="subtitle has-text-grey">
-
-Mar 1, 2020. Updated at 
-<time datetime="2025-04-26T00:00:00Z">Apr 26, 2025</time>
-
-
-</h2>
-<div class="tags">
-<a href="/tags/font/"><span class="tag has-text-danger-dark has-background-danger-light">font</span></a>&nbsp;
-
-<a href="/tags/ligature/"><span class="tag has-text-danger-dark has-background-danger-light">ligature</span></a>&nbsp;
-
-<a href="/tags/editor/"><span class="tag has-text-danger-dark has-background-danger-light">editor</span></a>&nbsp;
-
-<a href="/tags/terminal/"><span class="tag has-text-danger-dark has-background-danger-light">terminal</span></a>&nbsp;
-</div>
-<div class='content'>
+<article>
+<header class="article-header">
+<h1 class="article-title">Programming Fonts</h1>
+</header>
+<div class='article-body'>
 <h1 id="list-of-fonts-for-programming">List of Fonts for Programming</h1>
 <p>Monospaced fonts for text editors, IDE, terminals and browser. I use monospaced font in my browser and override the ones from the website. Mostly free and some open source fonts. This list includes only fonts I have tried. I like thin, elongated monospace fonts.</p>
 <h2 id="commit-monohttpscommitmonocom"><a href="https://commitmono.com">Commit Mono</a></h2>
@@ -71,11 +56,37 @@ Mar 1, 2020. Updated at
 <p>Check out <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> for more fonts. These have been patched to include a large number of glyphs for use in terminals, editors etc.</p>
 
 </div> <!-- content -->
+<hr>
+<div class="article-meta"><div class="meta-dates">
 
+<div class="meta-item">
+  <span class="meta-labe">Published:</span>
+  <time datetime="Mar 1, 2020">Mar 1, 2020</time>
+</div>
+<div class="meta-item">
+  <span class="meta-labe">Updated:</span>
+  
+<time datetime="2025-04-26T00:00:00Z">Apr 26, 2025</time>
 
 </div>
-</section>
-<footer class="footer has-background-white">
+
+</div></div>
+<div class="meta-tags">
+<span class="meta-label">Tags: </span>
+
+<a href="/tags/font/"><span class="tag">#font</span></a>&nbsp;
+
+<a href="/tags/ligature/"><span class="tag">#ligature</span></a>&nbsp;
+
+<a href="/tags/editor/"><span class="tag">#editor</span></a>&nbsp;
+
+<a href="/tags/terminal/"><span class="tag">#terminal</span></a>&nbsp;
+
+</div>
+</article>
+
+
+<footer class="footer">
   <div class="container">
     <div class="has-text-left">
       <p>
@@ -83,11 +94,10 @@ Mar 1, 2020. Updated at
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
         <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
         <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
-        <a href="https://instagram.com/45h15h/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
       </p>
       <p xmlns:cc="http://creativecommons.org/ns#" >
         <a rel="cc:attributionURL" href="https://www.axhixh.com.np">This site</a>
-        &copy; 2014 - 2025 by <span property="cc:attributionName">Ashish Shrestha</span>
+        &copy; 2014 - 2026 by <span property="cc:attributionName">Ashish Shrestha</span>
         is licensed under
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
         target="_blank" rel="license noopener noreferrer" 
@@ -107,7 +117,29 @@ Mar 1, 2020. Updated at
         </a>
       </p> 
     </div>
+      <div class="theme-select-wrapper">
+        <label for="theme-dropdown" class="meta-label">Theme:</label>
+        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
   </div>
 </footer>
-</body>
+ <!-- Inline Theme Switching Logic -->
+  <script>
+    function setTheme(mode) {
+      document.body.setAttribute('data-theme', mode);
+      localStorage.setItem('blog-theme', mode);
+      document.getElementById('theme-dropdown').value = mode;
+    }
+
+    // Apply stored theme setting on load
+    (function() {
+      const savedTheme = localStorage.getItem('blog-theme') || 'system';
+      setTheme(savedTheme);
+    })();
+  </script>
+</main></body>
 </html>
