@@ -1,28 +1,28 @@
 /* Local Self-Hosted Font Definitions */
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/maple-mono-regular.woff2') format('woff2');
+     src: url('/fonts/maple-mono-regular.woff2') format('woff2');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/maple-mono-italic.woff2') format('woff2');
+     src: url('/fonts/maple-mono-italic.woff2') format('woff2');
      font-weight: 400;
      font-style: italic;
      font-display: swap;
 }
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/maple-mono-bold.woff2') format('woff2');
+     src: url('/fonts/maple-mono-bold.woff2') format('woff2');
      font-weight: 700;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/MapleMono-BoldItalic.woff2') format('woff2');
+     src: url('/fonts/MapleMono-BoldItalic.woff2') format('woff2');
      font-weight: 700;
      font-style: italic;
      font-display: swap;
@@ -33,7 +33,7 @@
     /* Light Theme (Cream Background, Black Text, Red Links) */
      --bg-color: #f7f4eb;
      --text-color: #1a1a1a;
-     --text-muted: #66635b;
+     --text-muted: #76736b;
      --border-color: #e2ddd0;
      --link-color: #d93829;
      --link-hover: #b02518;
@@ -129,13 +129,14 @@
 /* All Links set to Red */
  a {
      color: var(--link-color);
-     text-decoration: underline;
-     text-underline-offset: 3px;
-     text-decoration-thickness: 1px;
+     text-decoration: none;
      transition: color 0.15s ease;
 }
  a:hover {
      color: var(--link-hover);
+     text-decoration: underline;
+     text-underline-offset: 2px;
+     text-decoration-thickness: 1px;
 }
  ul, ol {
      margin: 0 0 1.5rem 1.5rem;

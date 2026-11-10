@@ -95,23 +95,25 @@
 {{ .Content }}
 </div> <!-- content -->
 <hr>
-<div class="article-meta"><div class="meta-dates">
+<div class="article-meta">
+  <div class="meta-dates">
 {{ if .Other.Created }}
-<div class="meta-item">
-  <span class="meta-labe">Published:</span>
-  <time datetime="{{ .Other.Created }}">{{ .Other.Created }}</time>
-</div>
-<div class="meta-item">
-  <span class="meta-labe">Updated:</span>
-  {{template "date" .Date}}
-</div>
+    <div class="meta-item">
+      <span class="meta-label">Published:</span>
+      <time datetime="{{ .Other.Created }}">{{ .Other.Created }}</time>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Updated:</span>
+      {{template "date" .Date}}
+    </div>
 {{ else }}
-<div class="meta-item">
-  <span class="meta-labe">Published:</span>
-  {{template "date" .Date}}
-</div>
+    <div class="meta-item">
+      <span class="meta-label">Published:</span>
+      {{template "date" .Date}}
+    </div>
 {{end}}
-</div></div>
+  </div>
+</div>
 <div class="meta-tags">
 <span class="meta-label">Tags: </span>
 {{ range .Tags}}
