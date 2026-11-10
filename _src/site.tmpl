@@ -6,7 +6,7 @@
   <title>axhixh</title>
   <link rel="me" href="https://www.axhixh.com.np" />
   <link rel="me" href="https://github.com/axhixh/" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/site.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <!-- open graph -->
   <meta property="og:title" content="{{.Title}}" />
@@ -14,27 +14,22 @@
   <meta property="og:url" content="{{.Url}}" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body>
-<section class="section">
-<div class="container">
+<body><main>
 {{ end }}
 
 {{ define "footer" }}
-</div>
-</section>
-<footer class="footer has-background-white">
+<footer class="footer">
   <div class="container">
-    <div class="has-text-left">
+    <div>
       <p>
         <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
         <a href="/axhixh.atom"><span class="icon is-large"><i class="fas fa-rss"></i></span>Atom Feed</a>
         <a href="https://github.com/axhixh/" rel="me"><span class="icon is-large"><i class="fab fa-github"></i></span>Github</a> 
-        <a href="https://instagram.com/45h15h/" rel="me"><span class="icon is-large"><i class="fab fa-instagram"></i></span>Instagram</a> 
       </p>
       <p xmlns:cc="http://creativecommons.org/ns#" >
         <a rel="cc:attributionURL" href="https://www.axhixh.com.np">This site</a>
-        &copy; 2014 - 2025 by <span property="cc:attributionName">Ashish Shrestha</span>
+        &copy; 2014 - 2026 by <span property="cc:attributionName">Ashish Shrestha</span>
         is licensed under
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
         target="_blank" rel="license noopener noreferrer" 
@@ -56,11 +51,11 @@
     </div>
   </div>
 </footer>
-</body>
+</main></body>
 </html>{{ end }}
 
 {{define "date"}}
-<time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ .Format "Jan 02, 2006" }}</time>
+<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "Jan 02, 2006" }}</time>
 {{end}}
 
 {{ define "page" }}
@@ -70,30 +65,50 @@
 {{ end }}
 
 {{ define "post" }}
-<h1 class="title is-2">{{ .Title }}</h1>
-<h2 class="subtitle has-text-grey">
-{{ if .Other.Created }}
-{{ .Other.Created }}. Updated at {{template "date" .Date}}
-{{ else }}
-{{template "date" .Date}}
-{{end}}
-</h2>
-<div class="tags">{{ range .Tags}}
-<a href="/tags/{{.}}/"><span class="tag has-text-danger-dark has-background-danger-light">{{.}}</span></a>&nbsp;
-{{end}}</div>
-<div class='content'>
+<article>
+<header class="article-header">
+<h1 class="article-title">{{ .Title }}</h1>
+</header>
+<div class='article-body'>
 {{ .Content }}
 </div> <!-- content -->
+<hr>
+<div class="article-meta">
+  <div class="meta-dates">
+{{ if .Other.Created }}
+    <div class="meta-item">
+      <span class="meta-label">Published:</span>
+      <time datetime="{{ .Other.Created }}">{{ .Other.Created }}</time>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Updated:</span>
+      {{template "date" .Date}}
+    </div>
+{{ else }}
+    <div class="meta-item">
+      <span class="meta-label">Published:</span>
+      {{template "date" .Date}}
+    </div>
+{{end}}
+  </div>
+</div>
+<div class="meta-tags">
+<span class="meta-label">Tags: </span>
+{{ range .Tags}}
+<a href="/tags/{{.}}/"><span class="tag">#{{.}}</span></a>
+{{end}}
+</div>
+</article>
 {{ end }}
 
 {{define "tag"}}
-<div class="tag is-large is-danger"> {{.Title}}</div>
+<div class="tag"> {{.Title}}</div>
 <hr>
 <ul class="post-list">
 {{ range .Site.Pages.WithTag .Title }}
 <li class="mb-1">
     <div><a href="{{ $.Rel .Url }}">{{ .Title }}</a></div>
-    <div class="is-size-7 is-grey-lighter">{{ template "date" .Date }}</div>
+    <div>{{ template "date" .Date }}</div>
   </li>
 {{ end }}
 </ul>
