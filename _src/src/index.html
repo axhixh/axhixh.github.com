@@ -7,9 +7,9 @@ title: axhixh
 <p class="subtitle">ashish's notebook</p>
 <ul class="post-list">
 {{ range .Site.Pages.Children "pages/" }}
-  <li class="mb-1">
+  <li>
     <div><a href="{{ $.Rel .Url }}">{{ .Title }}</a></div>
-    <div class="is-size-7">{{ template "date" .Date }}</div>
+    <div>{{ template "date" .Date }}</div>
   </li>
 {{ end }}
 </ul>

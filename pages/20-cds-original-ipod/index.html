@@ -15,7 +15,7 @@
   <meta property="og:url" content="pages/20-cds-original-ipod/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body data-theme="system"><main>
+<body><main>
 
 
 <article>
@@ -51,26 +51,28 @@
 
 </div> <!-- content -->
 <hr>
-<div class="article-meta"><div class="meta-dates">
+<div class="article-meta">
+  <div class="meta-dates">
 
-<div class="meta-item">
-  <span class="meta-labe">Published:</span>
-  
-<time datetime="2019-06-14T00:00:00Z">Jun 14, 2019</time>
+    <div class="meta-item">
+      <span class="meta-label">Published:</span>
+      
+<time datetime="2019-06-14">Jun 14, 2019</time>
 
+    </div>
+
+  </div>
 </div>
-
-</div></div>
 <div class="meta-tags">
 <span class="meta-label">Tags: </span>
 
-<a href="/tags/music/"><span class="tag">#music</span></a>&nbsp;
+<a href="/tags/music/"><span class="tag">#music</span></a>
 
-<a href="/tags/apple/"><span class="tag">#apple</span></a>&nbsp;
+<a href="/tags/apple/"><span class="tag">#apple</span></a>
 
-<a href="/tags/ipod/"><span class="tag">#ipod</span></a>&nbsp;
+<a href="/tags/ipod/"><span class="tag">#ipod</span></a>
 
-<a href="/tags/spotify/"><span class="tag">#spotify</span></a>&nbsp;
+<a href="/tags/spotify/"><span class="tag">#spotify</span></a>
 
 </div>
 </article>
@@ -78,7 +80,7 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="has-text-left">
+    <div>
       <p>
         <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
@@ -107,29 +109,7 @@
         </a>
       </p> 
     </div>
-      <div class="theme-select-wrapper">
-        <label for="theme-dropdown" class="meta-label">Theme:</label>
-        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-      </div>
   </div>
 </footer>
- <!-- Inline Theme Switching Logic -->
-  <script>
-    function setTheme(mode) {
-      document.body.setAttribute('data-theme', mode);
-      localStorage.setItem('blog-theme', mode);
-      document.getElementById('theme-dropdown').value = mode;
-    }
-
-    // Apply stored theme setting on load
-    (function() {
-      const savedTheme = localStorage.getItem('blog-theme') || 'system';
-      setTheme(savedTheme);
-    })();
-  </script>
 </main></body>
 </html>

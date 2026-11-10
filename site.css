@@ -1,28 +1,28 @@
 /* Local Self-Hosted Font Definitions */
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/maple-mono-regular.woff2') format('woff2');
+     src: url('/fonts/maple-mono-regular.woff2') format('woff2');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/maple-mono-italic.woff2') format('woff2');
+     src: url('/fonts/maple-mono-italic.woff2') format('woff2');
      font-weight: 400;
      font-style: italic;
      font-display: swap;
 }
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/maple-mono-bold.woff2') format('woff2');
+     src: url('/fonts/maple-mono-bold.woff2') format('woff2');
      font-weight: 700;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Maple Mono';
-     src: url('./fonts/MapleMono-BoldItalic.woff2') format('woff2');
+     src: url('/fonts/MapleMono-BoldItalic.woff2') format('woff2');
      font-weight: 700;
      font-style: italic;
      font-display: swap;
@@ -31,9 +31,9 @@
  :root {
      --font-mono: 'Maple Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
     /* Light Theme (Cream Background, Black Text, Red Links) */
-     --bg-color: #f7f4eb;
+     --bg-color: #f7f4f0;
      --text-color: #1a1a1a;
-     --text-muted: #66635b;
+     --text-muted: #76736b;
      --border-color: #e2ddd0;
      --link-color: #d93829;
      --link-hover: #b02518;
@@ -41,34 +41,6 @@
      --quote-border: #d93829;
      --tag-bg: #eae4d5;
      --tag-hover: #ded6c3;
-}
-/* Dark Mode Theme */
- [data-theme="dark"] {
-     --bg-color: #18181a;
-     --text-color: #e5e3dc;
-     --text-muted: #99968d;
-     --border-color: #2e2e32;
-     --link-color: #ff5c4d;
-     --link-hover: #ff8578;
-     --code-bg: #222225;
-     --quote-border: #ff5c4d;
-     --tag-bg: #27272b;
-     --tag-hover: #333338;
-}
-/* System Preferred Dark Mode (when mode is set to system) */
- @media (prefers-color-scheme: dark) {
-     [data-theme="system"] {
-         --bg-color: #18181a;
-         --text-color: #e5e3dc;
-         --text-muted: #99968d;
-         --border-color: #2e2e32;
-         --link-color: #ff5c4d;
-         --link-hover: #ff8578;
-         --code-bg: #222225;
-         --quote-border: #ff5c4d;
-         --tag-bg: #27272b;
-         --tag-hover: #333338;
-    }
 }
 /* Base Reset & Global Styles */
  *, *::before, *::after {
@@ -129,13 +101,14 @@
 /* All Links set to Red */
  a {
      color: var(--link-color);
-     text-decoration: underline;
-     text-underline-offset: 3px;
-     text-decoration-thickness: 1px;
+     text-decoration: none;
      transition: color 0.15s ease;
 }
  a:hover {
      color: var(--link-hover);
+     text-decoration: underline;
+     text-underline-offset: 2px;
+     text-decoration-thickness: 1px;
 }
  ul, ol {
      margin: 0 0 1.5rem 1.5rem;
@@ -202,7 +175,7 @@
      display: flex;
      flex-wrap: wrap;
      align-items: center;
-     gap: 0.5rem;
+     gap: 0.3rem;
 }
  .tag {
      background-color: var(--tag-bg);
@@ -241,25 +214,5 @@
 }
  .copyright {
      color: var(--text-muted);
-}
-/* Theme Select Dropdown */
- .theme-select-wrapper {
-     display: flex;
-     align-items: center;
-     gap: 0.4rem;
-}
- .theme-select {
-     background-color: var(--code-bg);
-     color: var(--text-color);
-     border: 1px solid var(--border-color);
-     font-family: var(--font-mono);
-     font-size: 0.8rem;
-     padding: 0.2rem 0.4rem;
-     border-radius: 3px;
-     cursor: pointer;
-     outline: none;
-}
- .theme-select:focus {
-     border-color: var(--link-color);
 }
  

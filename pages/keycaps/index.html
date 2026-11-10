@@ -15,7 +15,7 @@
   <meta property="og:url" content="pages/keycaps/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body data-theme="system"><main>
+<body><main>
 
 
 <article>
@@ -138,30 +138,32 @@ such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Dire
 
 </div> <!-- content -->
 <hr>
-<div class="article-meta"><div class="meta-dates">
+<div class="article-meta">
+  <div class="meta-dates">
 
-<div class="meta-item">
-  <span class="meta-labe">Published:</span>
-  <time datetime="Feb 22, 2023">Feb 22, 2023</time>
+    <div class="meta-item">
+      <span class="meta-label">Published:</span>
+      <time datetime="Feb 22, 2023">Feb 22, 2023</time>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Updated:</span>
+      
+<time datetime="2024-03-18">Mar 18, 2024</time>
+
+    </div>
+
+  </div>
 </div>
-<div class="meta-item">
-  <span class="meta-labe">Updated:</span>
-  
-<time datetime="2024-03-18T00:00:00Z">Mar 18, 2024</time>
-
-</div>
-
-</div></div>
 <div class="meta-tags">
 <span class="meta-label">Tags: </span>
 
-<a href="/tags/keyboard/"><span class="tag">#keyboard</span></a>&nbsp;
+<a href="/tags/keyboard/"><span class="tag">#keyboard</span></a>
 
-<a href="/tags/keycap/"><span class="tag">#keycap</span></a>&nbsp;
+<a href="/tags/keycap/"><span class="tag">#keycap</span></a>
 
-<a href="/tags/mechanical-keyboard/"><span class="tag">#mechanical-keyboard</span></a>&nbsp;
+<a href="/tags/mechanical-keyboard/"><span class="tag">#mechanical-keyboard</span></a>
 
-<a href="/tags/3d-print/"><span class="tag">#3d-print</span></a>&nbsp;
+<a href="/tags/3d-print/"><span class="tag">#3d-print</span></a>
 
 </div>
 </article>
@@ -169,7 +171,7 @@ such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Dire
 
 <footer class="footer">
   <div class="container">
-    <div class="has-text-left">
+    <div>
       <p>
         <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
@@ -198,29 +200,7 @@ such adapter is <a href="https://www.thingiverse.com/thing:4134048">Choc-MX Dire
         </a>
       </p> 
     </div>
-      <div class="theme-select-wrapper">
-        <label for="theme-dropdown" class="meta-label">Theme:</label>
-        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-      </div>
   </div>
 </footer>
- <!-- Inline Theme Switching Logic -->
-  <script>
-    function setTheme(mode) {
-      document.body.setAttribute('data-theme', mode);
-      localStorage.setItem('blog-theme', mode);
-      document.getElementById('theme-dropdown').value = mode;
-    }
-
-    // Apply stored theme setting on load
-    (function() {
-      const savedTheme = localStorage.getItem('blog-theme') || 'system';
-      setTheme(savedTheme);
-    })();
-  </script>
 </main></body>
 </html>

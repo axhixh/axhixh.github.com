@@ -15,21 +15,21 @@
   <meta property="og:url" content="tags/lua/" />
   <link rel="alternate" type="application/atom+xml" title="atom feed for axhixh" href="/axhixh.atom" />
 </head>
-<body data-theme="system"><main>
+<body><main>
 
-<div class="tag is-large is-danger"> lua</div>
+<div class="tag"> lua</div>
 <hr>
 <ul class="post-list">
 <li class="mb-1">
     <div><a href="../../pages/2025-languages/">Programming Languages for 2025</a></div>
-    <div class="is-size-7 is-grey-lighter">
-<time datetime="2025-06-25T00:00:00Z">Jun 25, 2025</time>
+    <div>
+<time datetime="2025-06-25">Jun 25, 2025</time>
 </div>
   </li>
 <li class="mb-1">
     <div><a href="../../pages/ml-like-languages/">ML like Languages</a></div>
-    <div class="is-size-7 is-grey-lighter">
-<time datetime="2023-12-09T00:00:00Z">Dec 09, 2023</time>
+    <div>
+<time datetime="2023-12-09">Dec 09, 2023</time>
 </div>
   </li>
 </ul>
@@ -37,7 +37,7 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="has-text-left">
+    <div>
       <p>
         <a href="/"><span class="icon is-large"><i class="fas fa-home"></i></span>Home</a>
         <a href="/tags/"><span class="icon is-large"><i class="fas fa-tags"></i></span>Tags</a>
@@ -66,29 +66,7 @@
         </a>
       </p> 
     </div>
-      <div class="theme-select-wrapper">
-        <label for="theme-dropdown" class="meta-label">Theme:</label>
-        <select id="theme-dropdown" class="theme-select" onchange="setTheme(this.value)">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-      </div>
   </div>
 </footer>
- <!-- Inline Theme Switching Logic -->
-  <script>
-    function setTheme(mode) {
-      document.body.setAttribute('data-theme', mode);
-      localStorage.setItem('blog-theme', mode);
-      document.getElementById('theme-dropdown').value = mode;
-    }
-
-    // Apply stored theme setting on load
-    (function() {
-      const savedTheme = localStorage.getItem('blog-theme') || 'system';
-      setTheme(savedTheme);
-    })();
-  </script>
 </main></body>
 </html>
