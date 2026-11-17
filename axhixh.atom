@@ -3,12 +3,46 @@
   <id>https://www.axhixh.com.np/</id>
   <title>axhixh</title>
   
-  <updated>2025-06-25T00:00:00Z</updated>
+  <updated>2026-11-16T00:00:00Z</updated>
   
   <author><name>Ashish Shrestha</name></author>
   <link href="https://www.axhixh.com.np/axhixh.atom"></link>
 
 
+
+<entry>
+  <id>pages/2026-languages/</id>
+  <author><name>Ashish Shrestha</name></author>
+  <title type="html">Programming Languages for 2026</title>
+  <published>2026-11-16T00:00:00Z</published>
+  <updated>2026-11-16T00:00:00Z</updated>
+  
+  <category term="koka"></category>
+  
+  <category term="ocaml"></category>
+  
+  <category term="lua"></category>
+  
+  <category term="kotlin"></category>
+  
+  <category term="prism"></category>
+  
+  <category term="gossamer"></category>
+  
+  <category term="eff"></category>
+  
+  <category term="effekt"></category>
+  
+  <category term="osprey"></category>
+  
+  <category term="gren"></category>
+  
+  <link href="https://www.axhixh.com.np/pages/2026-languages/" rel="alternate"></link>
+  <content type="html"><![CDATA[
+    
+    
+  ]]></content>
+</entry>
 
 <entry>
   <id>pages/2025-languages/</id>
@@ -246,22 +280,6 @@
   <category term="tools"></category>
   
   <link href="https://www.axhixh.com.np/pages/digitizing-documents/" rel="alternate"></link>
-  <content type="html"><![CDATA[
-    
-    
-  ]]></content>
-</entry>
-
-<entry>
-  <id>pages/sql-join/</id>
-  <author><name>Ashish Shrestha</name></author>
-  <title type="html">SQL Join</title>
-  <published>2019-06-14T00:00:00Z</published>
-  <updated>2019-06-14T00:00:00Z</updated>
-  
-  <category term="sql"></category>
-  
-  <link href="https://www.axhixh.com.np/pages/sql-join/" rel="alternate"></link>
   <content type="html"><![CDATA[
     
     
